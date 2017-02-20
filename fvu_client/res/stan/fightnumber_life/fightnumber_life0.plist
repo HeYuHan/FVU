@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>fight_text_life.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{220,30}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{220,30}}</string>
+                <key>sourceSize</key>
+                <string>{220,30}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>fightnumber_life0.png</string>
+            <key>size</key>
+            <string>{220,30}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:71ac5a4d661a3ed52b071259e546d865:f83e93ea5f5f628f0fe135c65085dcf5:5955ac997d2b3011e3fc27ddf01a1c68$</string>
+            <key>textureFileName</key>
+            <string>fightnumber_life0.png</string>
+        </dict>
+    </dict>
+</plist>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>fenghuang_a_0.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{76,74}}</string>
+                <key>offset</key>
+                <string>{1,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{2,0},{76,74}}</string>
+                <key>sourceSize</key>
+                <string>{78,74}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>skeleton0.png</string>
+            <key>size</key>
+            <string>{80,78}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:d23beb9618e4614128d247e767606291:bcac596cc6a4164ce437d8cfb0282e61:fa9998bc0e515e7b468fc096e7b5d659$</string>
+            <key>textureFileName</key>
+            <string>skeleton0.png</string>
+        </dict>
+    </dict>
+</plist>

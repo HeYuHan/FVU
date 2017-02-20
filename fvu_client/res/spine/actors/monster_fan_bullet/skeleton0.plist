@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>fan_fd01.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{57,25}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{57,25}}</string>
+                <key>sourceSize</key>
+                <string>{57,25}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>skeleton0.png</string>
+            <key>size</key>
+            <string>{61,29}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:75ccd14f70c0b5bec9e2aebe16386dbb:16e4e1b44f12fae93d2327adfb4e29a6:fa9998bc0e515e7b468fc096e7b5d659$</string>
+            <key>textureFileName</key>
+            <string>skeleton0.png</string>
+        </dict>
+    </dict>
+</plist>

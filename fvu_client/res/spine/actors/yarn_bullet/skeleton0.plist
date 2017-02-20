@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>shazhi_zidan.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{32,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,3},{32,10}}</string>
+                <key>sourceSize</key>
+                <string>{32,16}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>skeleton0.png</string>
+            <key>size</key>
+            <string>{36,14}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:ca608614fd5f6e3e599b0957c3afd0ef:56b9913a48996529c0e74613303a4c2f:fa9998bc0e515e7b468fc096e7b5d659$</string>
+            <key>textureFileName</key>
+            <string>skeleton0.png</string>
+        </dict>
+    </dict>
+</plist>
