@@ -1,5 +1,6 @@
 #fvu_client/frameworks/cocos2d-x
 *Debug.win32
+*.sdf
 fvu_client/frameworks/runtime-src/proj.android
 fvu_client/frameworks/runtime-src/proj.android-studio
 fvu_client/frameworks/runtime-src/proj.linux

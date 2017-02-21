@@ -1,0 +1,58 @@
+#include "GameApp.h"
+using namespace std;
+
+static GameApp* _globalApp = nullptr;
+GameApp::GameApp():
+	m_MainScene(nullptr),
+	m_MainLayer(nullptr),
+	m_DesignResolutionSize(Vec2(640,480))
+{
+}
+
+GameApp::~GameApp()
+{
+}
+GameApp* GameApp::getInstance()
+{
+	if (!_globalApp)
+	{
+		_globalApp = new (std::nothrow) GameApp();
+		_globalApp->init();
+	}
+	return _globalApp;
+}
+void GameApp::init()
+{
+	m_DesignResolutionSize = Size(640, 480);
+	m_MainScene = Scene::create();
+	m_MainLayer = Layer::create();
+	auto director = Director::getInstance();
+	auto glview = director->getOpenGLView();
+	glview->setDesignResolutionSize(m_DesignResolutionSize.width, m_DesignResolutionSize.height, ResolutionPolicy::NO_BORDER);
+	director->runWithScene(m_MainScene);
+	m_MainScene->addChild(m_MainLayer);
+
+
+}
+bool GameApp::startGame()
+{
+	auto c = Character::create();
+	c->loadAnimation("spine/actors/boss_ghost/skeleton.json","spine/actors/boss_ghost/skeleton0.plist.atlas");
+	c->getAnimationPlayer()->setAnimation(0, "idle", true);
+	auto size = c->getAnimationPlayer()->getContentSize();
+	c->setPosition(getScreenCenterPosition()+Vec2(0,-150));
+	m_MainLayer->addChild(c);
+	//addCharacter(c);
+	return true;
+}
+Vec2 GameApp::getScreenCenterPosition()
+{
+	auto visibleSize = Director::getInstance()->getVisibleSize();
+	Vec2 origin = Director::getInstance()->getVisibleOrigin();
+	Vec2 center = (origin + visibleSize) / 2;
+	return center;
+}
+//void GameApp::addCharacter(Character *c)
+//{
+//	m_MainLayer->addChild(c);
+//}
