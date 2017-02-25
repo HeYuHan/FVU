@@ -7,11 +7,11 @@
             <key>boss_gui_01.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{497,688},{85,70}}</string>
+                <string>{{2,946},{85,70}}</string>
                 <key>offset</key>
                 <string>{-2,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{85,70}}</string>
                 <key>sourceSize</key>
@@ -20,7 +20,7 @@
             <key>boss_gui_02.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{572,937},{52,18}}</string>
+                <string>{{355,858},{52,18}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -33,11 +33,11 @@
             <key>boss_gui_03.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{477,225},{56,62}}</string>
+                <string>{{121,880},{56,62}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{56,62}}</string>
                 <key>sourceSize</key>
@@ -46,7 +46,7 @@
             <key>boss_gui_04.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{516,935},{39,43}}</string>
+                <string>{{510,287},{39,43}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -59,7 +59,7 @@
             <key>boss_gui_05.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{275,283},{197,54}}</string>
+                <string>{{358,186},{197,54}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -72,7 +72,7 @@
             <key>boss_gui_06.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{594,892},{45,43}}</string>
+                <string>{{510,242},{45,43}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -85,11 +85,11 @@
             <key>boss_gui_07.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{407,611},{94,83}}</string>
+                <string>{{491,852},{94,83}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{94,83}}</string>
                 <key>sourceSize</key>
@@ -98,11 +98,11 @@
             <key>boss_gui_08.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{491,455},{55,60}}</string>
+                <string>{{179,880},{55,60}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{55,60}}</string>
                 <key>sourceSize</key>
@@ -111,11 +111,11 @@
             <key>boss_gui_09.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{580,773},{59,57}}</string>
+                <string>{{290,880},{59,57}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{59,57}}</string>
                 <key>sourceSize</key>
@@ -124,11 +124,11 @@
             <key>boss_gui_10.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{186,518},{296,103}}</string>
+                <string>{{354,334},{296,103}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{296,103}}</string>
                 <key>sourceSize</key>
@@ -137,7 +137,7 @@
             <key>boss_gui_11.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{275,431},{124,64}}</string>
+                <string>{{2,648},{124,64}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -150,7 +150,7 @@
             <key>boss_gui_12.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{557,933},{13,30}}</string>
+                <string>{{334,412},{13,30}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -163,7 +163,7 @@
             <key>boss_gui_13.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{633,129},{12,26}}</string>
+                <string>{{322,547},{12,26}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -176,7 +176,7 @@
             <key>boss_gui_14.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{541,225},{12,35}}</string>
+                <string>{{334,444},{12,35}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -189,7 +189,7 @@
             <key>boss_gui_15.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{628,721},{14,34}}</string>
+                <string>{{334,364},{14,34}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -202,7 +202,7 @@
             <key>boss_gui_16.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{407,509},{82,100}}</string>
+                <string>{{355,756},{82,100}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -215,7 +215,7 @@
             <key>boss_gui_17.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{555,332},{90,105}}</string>
+                <string>{{557,223},{90,105}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -228,11 +228,11 @@
             <key>boss_gui_18.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{569,721},{50,57}}</string>
+                <string>{{253,648},{50,57}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{50,57}}</string>
                 <key>sourceSize</key>
@@ -241,7 +241,7 @@
             <key>boss_gui_19.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{446,802},{63,51}}</string>
+                <string>{{343,703},{63,51}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -254,11 +254,11 @@
             <key>boss_gui_20.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{594,834},{56,41}}</string>
+                <string>{{429,937},{56,41}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{56,41}}</string>
                 <key>sourceSize</key>
@@ -267,11 +267,11 @@
             <key>boss_gui_21.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{407,802},{52,37}}</string>
+                <string>{{509,813},{52,37}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{52,37}}</string>
                 <key>sourceSize</key>
@@ -280,11 +280,11 @@
             <key>boss_gui_22.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{511,775},{68,67}}</string>
+                <string>{{177,944},{68,67}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{68,67}}</string>
                 <key>sourceSize</key>
@@ -293,7 +293,7 @@
             <key>boss_gui_23.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{248,972},{113,35}}</string>
+                <string>{{509,776},{113,35}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -306,11 +306,11 @@
             <key>boss_gui_b_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{190,160},{356,83}}</string>
+                <string>{{2,91},{356,83}}</string>
                 <key>offset</key>
                 <string>{0,-1}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{24,19},{356,83}}</string>
                 <key>sourceSize</key>
@@ -319,11 +319,11 @@
             <key>boss_gui_b_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,512},{356,87}}</string>
+                <string>{{2,2},{356,87}}</string>
                 <key>offset</key>
                 <string>{0,-4}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{24,20},{356,87}}</string>
                 <key>sourceSize</key>
@@ -332,11 +332,11 @@
             <key>boss_gui_b_3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{99,160},{354,89}}</string>
+                <string>{{2,176},{354,89}}</string>
                 <key>offset</key>
                 <string>{1,-2}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{26,17},{354,89}}</string>
                 <key>sourceSize</key>
@@ -345,11 +345,11 @@
             <key>boss_gui_b_4.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,160},{350,95}}</string>
+                <string>{{2,267},{350,95}}</string>
                 <key>offset</key>
                 <string>{-1,-3}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{26,15},{350,95}}</string>
                 <key>sourceSize</key>
@@ -358,7 +358,7 @@
             <key>boss_gui_b_5.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{304,2},{330,95}}</string>
+                <string>{{2,364},{330,95}}</string>
                 <key>offset</key>
                 <string>{-8,-3}</string>
                 <key>rotated</key>
@@ -371,11 +371,11 @@
             <key>boss_gui_b_6.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{91,516},{318,93}}</string>
+                <string>{{2,461},{318,93}}</string>
                 <key>offset</key>
                 <string>{-13,-1}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{30,14},{318,93}}</string>
                 <key>sourceSize</key>
@@ -384,7 +384,7 @@
             <key>boss_gui_b_7.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{304,99},{290,79}}</string>
+                <string>{{360,2},{290,79}}</string>
                 <key>offset</key>
                 <string>{-17,-2}</string>
                 <key>rotated</key>
@@ -397,7 +397,7 @@
             <key>boss_gui_b_8.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{275,180},{278,43}}</string>
+                <string>{{360,83},{278,43}}</string>
                 <key>offset</key>
                 <string>{-23,-2}</string>
                 <key>rotated</key>
@@ -410,7 +410,7 @@
             <key>boss_gui_sb_00.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{407,497},{14,10}}</string>
+                <string>{{334,400},{14,10}}</string>
                 <key>offset</key>
                 <string>{-29,25}</string>
                 <key>rotated</key>
@@ -423,11 +423,11 @@
             <key>boss_gui_sb_01.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{633,99},{28,12}}</string>
+                <string>{{339,689},{28,12}}</string>
                 <key>offset</key>
                 <string>{-23,25}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{4,4},{28,12}}</string>
                 <key>sourceSize</key>
@@ -436,7 +436,7 @@
             <key>boss_gui_sb_02.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{552,917},{40,14}}</string>
+                <string>{{306,633},{40,14}}</string>
                 <key>offset</key>
                 <string>{-17,24}</string>
                 <key>rotated</key>
@@ -449,11 +449,11 @@
             <key>boss_gui_sb_03.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{465,455},{52,22}}</string>
+                <string>{{439,828},{52,22}}</string>
                 <key>offset</key>
                 <string>{-12,21}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{3,3},{52,22}}</string>
                 <key>sourceSize</key>
@@ -462,7 +462,7 @@
             <key>boss_gui_sb_04.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{579,685},{66,34}}</string>
+                <string>{{559,937},{66,34}}</string>
                 <key>offset</key>
                 <string>{-6,15}</string>
                 <key>rotated</key>
@@ -475,11 +475,11 @@
             <key>boss_gui_sb_05.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{552,845},{70,40}}</string>
+                <string>{{487,937},{70,40}}</string>
                 <key>offset</key>
                 <string>{-3,12}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{3,3},{70,40}}</string>
                 <key>sourceSize</key>
@@ -488,7 +488,7 @@
             <key>boss_gui_sb_06.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{401,441},{62,54}}</string>
+                <string>{{351,880},{62,54}}</string>
                 <key>offset</key>
                 <string>{6,4}</string>
                 <key>rotated</key>
@@ -501,11 +501,11 @@
             <key>boss_gui_sb_07.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{186,968},{52,60}}</string>
+                <string>{{236,880},{52,60}}</string>
                 <key>offset</key>
                 <string>{12,-2}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{27,7},{52,60}}</string>
                 <key>sourceSize</key>
@@ -514,11 +514,11 @@
             <key>boss_gui_sb_08.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{509,980},{40,56}}</string>
+                <string>{{306,575},{40,56}}</string>
                 <key>offset</key>
                 <string>{18,-4}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{39,11},{40,56}}</string>
                 <key>sourceSize</key>
@@ -527,11 +527,11 @@
             <key>boss_gui_sb_09.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{94,988},{32,50}}</string>
+                <string>{{305,649},{32,50}}</string>
                 <key>offset</key>
                 <string>{22,-6}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{47,16},{32,50}}</string>
                 <key>sourceSize</key>
@@ -540,11 +540,11 @@
             <key>boss_gui_sb_10.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{146,988},{20,36}}</string>
+                <string>{{322,481},{20,36}}</string>
                 <key>offset</key>
                 <string>{28,-13}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{59,30},{20,36}}</string>
                 <key>sourceSize</key>
@@ -553,11 +553,11 @@
             <key>boss_gui_sb_11.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{275,160},{12,26}}</string>
+                <string>{{322,519},{12,26}}</string>
                 <key>offset</key>
                 <string>{31,-18}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{66,40},{12,26}}</string>
                 <key>sourceSize</key>
@@ -566,7 +566,7 @@
             <key>boss_gui_sb_12.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{497,775},{12,16}}</string>
+                <string>{{306,556},{12,16}}</string>
                 <key>offset</key>
                 <string>{31,-23}</string>
                 <key>rotated</key>
@@ -579,11 +579,11 @@
             <key>boss_gui_sb_q.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{461,972},{48,46}}</string>
+                <string>{{408,689},{48,46}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,1},{48,46}}</string>
                 <key>sourceSize</key>
@@ -592,11 +592,11 @@
             <key>bossgui_01.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{427,339},{100,45}}</string>
+                <string>{{458,689},{100,45}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{100,45}}</string>
                 <key>sourceSize</key>
@@ -605,7 +605,7 @@
             <key>bossgui_02.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{363,972},{96,39}}</string>
+                <string>{{429,980},{96,39}}</string>
                 <key>offset</key>
                 <string>{-1,1}</string>
                 <key>rotated</key>
@@ -618,24 +618,24 @@
             <key>bossgui_03.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{516,845},{88,34}}</string>
+                <string>{{563,813},{86,34}}</string>
                 <key>offset</key>
                 <string>{0,2}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{88,34}}</string>
+                <string>{{1,0},{86,34}}</string>
                 <key>sourceSize</key>
                 <string>{88,38}</string>
             </dict>
             <key>gui_dazhaoxuli_0001.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{491,512},{86,69}}</string>
+                <string>{{89,946},{86,69}}</string>
                 <key>offset</key>
                 <string>{3,6}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{11,9},{86,69}}</string>
                 <key>sourceSize</key>
@@ -644,11 +644,11 @@
             <key>gui_dazhaoxuli_0003.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{579,595},{88,55}}</string>
+                <string>{{253,707},{88,55}}</string>
                 <key>offset</key>
                 <string>{-2,3}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{5,19},{88,55}}</string>
                 <key>sourceSize</key>
@@ -657,7 +657,7 @@
             <key>gui_dazhaoxuli_0005.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{407,707},{88,93}}</string>
+                <string>{{562,128},{88,93}}</string>
                 <key>offset</key>
                 <string>{-3,2}</string>
                 <key>rotated</key>
@@ -670,11 +670,11 @@
             <key>gui_dazhaoxuli_0007.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{492,600},{86,85}}</string>
+                <string>{{560,689},{86,85}}</string>
                 <key>offset</key>
                 <string>{-8,7}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{86,85}}</string>
                 <key>sourceSize</key>
@@ -683,11 +683,11 @@
             <key>gui_dazhaoxuli_0009.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{562,509},{84,77}}</string>
+                <string>{{247,942},{84,77}}</string>
                 <key>offset</key>
                 <string>{-8,11}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{1,0},{84,77}}</string>
                 <key>sourceSize</key>
@@ -696,11 +696,11 @@
             <key>gui_dazhaoxuli_0011.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{474,283},{94,79}}</string>
+                <string>{{333,939},{94,79}}</string>
                 <key>offset</key>
                 <string>{-1,10}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{3,0},{94,79}}</string>
                 <key>sourceSize</key>
@@ -709,11 +709,11 @@
             <key>gui_dazhaoxuli_0013.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{474,379},{74,77}}</string>
+                <string>{{415,858},{74,77}}</string>
                 <key>offset</key>
                 <string>{-5,7}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{9,4},{74,77}}</string>
                 <key>sourceSize</key>
@@ -722,11 +722,11 @@
             <key>gui_dazhaoxuli_0015.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{553,439},{68,89}}</string>
+                <string>{{439,737},{68,89}}</string>
                 <key>offset</key>
                 <string>{-8,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{9,5},{68,89}}</string>
                 <key>sourceSize</key>
@@ -735,11 +735,11 @@
             <key>gui_dazhaoxuli_bao0001.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{291,622},{117,114}}</string>
+                <string>{{121,764},{117,114}}</string>
                 <key>offset</key>
                 <string>{2,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{8,0},{117,114}}</string>
                 <key>sourceSize</key>
@@ -748,7 +748,7 @@
             <key>gui_dazhaoxuli_bao0003.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{278,856},{117,114}}</string>
+                <string>{{2,830},{117,114}}</string>
                 <key>offset</key>
                 <string>{2,0}</string>
                 <key>rotated</key>
@@ -761,7 +761,7 @@
             <key>gui_dazhaoxuli_bao0005.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{397,856},{117,114}}</string>
+                <string>{{2,714},{117,114}}</string>
                 <key>offset</key>
                 <string>{2,0}</string>
                 <key>rotated</key>
@@ -774,11 +774,11 @@
             <key>gui_dazhaoxuli_bao0007.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{291,497},{123,114}}</string>
+                <string>{{128,648},{123,114}}</string>
                 <key>offset</key>
                 <string>{3,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{6,0},{123,114}}</string>
                 <key>sourceSize</key>
@@ -787,11 +787,11 @@
             <key>gui_dazhaoxuli_bao0009.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{291,741},{113,114}}</string>
+                <string>{{240,764},{113,114}}</string>
                 <key>offset</key>
                 <string>{3,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{11,0},{113,114}}</string>
                 <key>sourceSize</key>
@@ -800,11 +800,11 @@
             <key>gui_xuanfeng0001.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,870},{150,90}}</string>
+                <string>{{500,597},{150,90}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{150,90}}</string>
                 <key>sourceSize</key>
@@ -813,7 +813,7 @@
             <key>gui_xuanfeng0003.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{275,339},{150,90}}</string>
+                <string>{{348,597},{150,90}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -826,11 +826,11 @@
             <key>gui_xuanfeng0005.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{555,180},{150,90}}</string>
+                <string>{{154,556},{150,90}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{150,90}}</string>
                 <key>sourceSize</key>
@@ -839,11 +839,11 @@
             <key>gui_xuanfeng0007.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{94,836},{150,90}}</string>
+                <string>{{2,556},{150,90}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{150,90}}</string>
                 <key>sourceSize</key>
@@ -852,11 +852,11 @@
             <key>gui_xuanfeng0009.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{186,816},{150,90}}</string>
+                <string>{{358,242},{150,90}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{150,90}}</string>
                 <key>sourceSize</key>
@@ -865,7 +865,7 @@
             <key>js_dz_c.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,2},{300,156}}</string>
+                <string>{{349,439},{300,156}}</string>
                 <key>offset</key>
                 <string>{0,2}</string>
                 <key>rotated</key>
@@ -878,11 +878,11 @@
             <key>qianbingweiyz.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{596,99},{78,35}}</string>
+                <string>{{527,979},{78,35}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{78,35}}</string>
                 <key>sourceSize</key>
@@ -891,7 +891,7 @@
             <key>up_boss_gui_05.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{275,225},{200,56}}</string>
+                <string>{{360,128},{200,56}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -909,9 +909,9 @@
             <key>realTextureFileName</key>
             <string>skeleton0.png</string>
             <key>size</key>
-            <string>{647,1022}</string>
+            <string>{652,1021}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:06b12658afb98cd76eadd736c40d05dd:87012267bfe01bfb012709a8667e590b:fa9998bc0e515e7b468fc096e7b5d659$</string>
+            <string>$TexturePacker:SmartUpdate:1457a69d24b3a66d6495d4e33dabd5c6$</string>
             <key>textureFileName</key>
             <string>skeleton0.png</string>
         </dict>

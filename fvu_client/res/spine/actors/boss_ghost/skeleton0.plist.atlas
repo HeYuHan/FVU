@@ -1,0 +1,488 @@
+skeleton0.png
+size:652,1021
+foramt:RGBA8888
+filter:Linear,Linear
+repeat:none
+gui_dazhaoxuli_0003
+  rotate:false
+  xy:253,707
+  size:88,55
+  orig:102,99
+  offset:-2,3
+  index:-1
+boss_gui_08
+  rotate:false
+  xy:179,880
+  size:55,60
+  orig:55,60
+  offset:0,0
+  index:-1
+boss_gui_09
+  rotate:false
+  xy:290,880
+  size:59,57
+  orig:59,57
+  offset:0,0
+  index:-1
+boss_gui_sb_03
+  rotate:false
+  xy:439,828
+  size:52,22
+  orig:82,70
+  offset:-12,21
+  index:-1
+boss_gui_14
+  rotate:false
+  xy:334,444
+  size:12,35
+  orig:12,35
+  offset:0,0
+  index:-1
+boss_gui_16
+  rotate:false
+  xy:355,756
+  size:82,100
+  orig:82,100
+  offset:0,0
+  index:-1
+boss_gui_sb_12
+  rotate:false
+  xy:306,556
+  size:12,16
+  orig:82,70
+  offset:31,-23
+  index:-1
+boss_gui_04
+  rotate:false
+  xy:510,287
+  size:39,43
+  orig:39,43
+  offset:0,0
+  index:-1
+boss_gui_sb_00
+  rotate:false
+  xy:334,400
+  size:14,10
+  orig:82,70
+  offset:-29,25
+  index:-1
+gui_xuanfeng0005
+  rotate:false
+  xy:154,556
+  size:150,90
+  orig:150,90
+  offset:0,0
+  index:-1
+gui_xuanfeng0007
+  rotate:false
+  xy:2,556
+  size:150,90
+  orig:150,90
+  offset:0,0
+  index:-1
+gui_dazhaoxuli_0001
+  rotate:false
+  xy:89,946
+  size:86,69
+  orig:102,99
+  offset:3,6
+  index:-1
+boss_gui_sb_01
+  rotate:false
+  xy:339,689
+  size:28,12
+  orig:82,70
+  offset:-23,25
+  index:-1
+boss_gui_sb_09
+  rotate:false
+  xy:305,649
+  size:32,50
+  orig:82,70
+  offset:22,-6
+  index:-1
+boss_gui_b_1
+  rotate:false
+  xy:2,91
+  size:356,83
+  orig:404,119
+  offset:0,-1
+  index:-1
+gui_dazhaoxuli_0013
+  rotate:false
+  xy:415,858
+  size:74,77
+  orig:102,99
+  offset:-5,7
+  index:-1
+boss_gui_18
+  rotate:false
+  xy:253,648
+  size:50,57
+  orig:50,57
+  offset:0,0
+  index:-1
+boss_gui_15
+  rotate:false
+  xy:334,364
+  size:14,34
+  orig:14,34
+  offset:0,0
+  index:-1
+bossgui_03
+  rotate:false
+  xy:563,813
+  size:86,34
+  orig:88,38
+  offset:0,2
+  index:-1
+boss_gui_11
+  rotate:false
+  xy:2,648
+  size:124,64
+  orig:124,64
+  offset:0,0
+  index:-1
+boss_gui_10
+  rotate:false
+  xy:354,334
+  size:296,103
+  orig:296,103
+  offset:0,0
+  index:-1
+boss_gui_12
+  rotate:false
+  xy:334,412
+  size:13,30
+  orig:13,30
+  offset:0,0
+  index:-1
+bossgui_02
+  rotate:false
+  xy:429,980
+  size:96,39
+  orig:100,41
+  offset:-1,1
+  index:-1
+gui_dazhaoxuli_bao0009
+  rotate:false
+  xy:240,764
+  size:113,114
+  orig:129,114
+  offset:3,0
+  index:-1
+js_dz_c
+  rotate:false
+  xy:349,439
+  size:300,156
+  orig:300,160
+  offset:0,2
+  index:-1
+gui_xuanfeng0003
+  rotate:false
+  xy:348,597
+  size:150,90
+  orig:150,90
+  offset:0,0
+  index:-1
+boss_gui_sb_04
+  rotate:false
+  xy:559,937
+  size:66,34
+  orig:82,70
+  offset:-6,15
+  index:-1
+gui_xuanfeng0001
+  rotate:false
+  xy:500,597
+  size:150,90
+  orig:150,90
+  offset:0,0
+  index:-1
+boss_gui_sb_05
+  rotate:false
+  xy:487,937
+  size:70,40
+  orig:82,70
+  offset:-3,12
+  index:-1
+up_boss_gui_05
+  rotate:false
+  xy:360,128
+  size:200,56
+  orig:200,56
+  offset:0,0
+  index:-1
+gui_xuanfeng0009
+  rotate:false
+  xy:358,242
+  size:150,90
+  orig:150,90
+  offset:0,0
+  index:-1
+qianbingweiyz
+  rotate:false
+  xy:527,979
+  size:78,35
+  orig:78,35
+  offset:0,0
+  index:-1
+gui_dazhaoxuli_0015
+  rotate:false
+  xy:439,737
+  size:68,89
+  orig:102,99
+  offset:-8,0
+  index:-1
+boss_gui_b_5
+  rotate:false
+  xy:2,364
+  size:330,95
+  orig:404,119
+  offset:-8,-3
+  index:-1
+boss_gui_19
+  rotate:false
+  xy:343,703
+  size:63,51
+  orig:63,51
+  offset:0,0
+  index:-1
+boss_gui_b_8
+  rotate:false
+  xy:360,83
+  size:278,43
+  orig:404,119
+  offset:-23,-2
+  index:-1
+boss_gui_03
+  rotate:false
+  xy:121,880
+  size:56,62
+  orig:56,62
+  offset:0,0
+  index:-1
+boss_gui_17
+  rotate:false
+  xy:557,223
+  size:90,105
+  orig:90,105
+  offset:0,0
+  index:-1
+boss_gui_01
+  rotate:false
+  xy:2,946
+  size:85,70
+  orig:89,70
+  offset:-2,0
+  index:-1
+boss_gui_b_2
+  rotate:false
+  xy:2,2
+  size:356,87
+  orig:404,119
+  offset:0,-4
+  index:-1
+boss_gui_b_3
+  rotate:false
+  xy:2,176
+  size:354,89
+  orig:404,119
+  offset:1,-2
+  index:-1
+boss_gui_13
+  rotate:false
+  xy:322,547
+  size:12,26
+  orig:12,26
+  offset:0,0
+  index:-1
+boss_gui_sb_02
+  rotate:false
+  xy:306,633
+  size:40,14
+  orig:82,70
+  offset:-17,24
+  index:-1
+boss_gui_21
+  rotate:false
+  xy:509,813
+  size:52,37
+  orig:52,37
+  offset:0,0
+  index:-1
+boss_gui_22
+  rotate:false
+  xy:177,944
+  size:68,67
+  orig:68,67
+  offset:0,0
+  index:-1
+boss_gui_23
+  rotate:false
+  xy:509,776
+  size:113,35
+  orig:113,35
+  offset:0,0
+  index:-1
+bossgui_01
+  rotate:false
+  xy:458,689
+  size:100,45
+  orig:100,45
+  offset:0,0
+  index:-1
+boss_gui_sb_11
+  rotate:false
+  xy:322,519
+  size:12,26
+  orig:82,70
+  offset:31,-18
+  index:-1
+gui_dazhaoxuli_0007
+  rotate:false
+  xy:560,689
+  size:86,85
+  orig:102,99
+  offset:-8,7
+  index:-1
+gui_dazhaoxuli_0009
+  rotate:false
+  xy:247,942
+  size:84,77
+  orig:102,99
+  offset:-8,11
+  index:-1
+gui_dazhaoxuli_bao0007
+  rotate:false
+  xy:128,648
+  size:123,114
+  orig:129,114
+  offset:3,0
+  index:-1
+gui_dazhaoxuli_0011
+  rotate:false
+  xy:333,939
+  size:94,79
+  orig:102,99
+  offset:-1,10
+  index:-1
+boss_gui_sb_08
+  rotate:false
+  xy:306,575
+  size:40,56
+  orig:82,70
+  offset:18,-4
+  index:-1
+boss_gui_sb_10
+  rotate:false
+  xy:322,481
+  size:20,36
+  orig:82,70
+  offset:28,-13
+  index:-1
+gui_dazhaoxuli_0005
+  rotate:false
+  xy:562,128
+  size:88,93
+  orig:102,99
+  offset:-3,2
+  index:-1
+boss_gui_02
+  rotate:false
+  xy:355,858
+  size:52,18
+  orig:52,18
+  offset:0,0
+  index:-1
+boss_gui_b_7
+  rotate:false
+  xy:360,2
+  size:290,79
+  orig:404,119
+  offset:-17,-2
+  index:-1
+boss_gui_b_4
+  rotate:false
+  xy:2,267
+  size:350,95
+  orig:404,119
+  offset:-1,-3
+  index:-1
+boss_gui_sb_06
+  rotate:false
+  xy:351,880
+  size:62,54
+  orig:82,70
+  offset:6,4
+  index:-1
+boss_gui_06
+  rotate:false
+  xy:510,242
+  size:45,43
+  orig:45,43
+  offset:0,0
+  index:-1
+boss_gui_07
+  rotate:false
+  xy:491,852
+  size:94,83
+  orig:94,83
+  offset:0,0
+  index:-1
+boss_gui_05
+  rotate:false
+  xy:358,186
+  size:197,54
+  orig:197,54
+  offset:0,0
+  index:-1
+gui_dazhaoxuli_bao0001
+  rotate:false
+  xy:121,764
+  size:117,114
+  orig:129,114
+  offset:2,0
+  index:-1
+boss_gui_b_6
+  rotate:false
+  xy:2,461
+  size:318,93
+  orig:404,119
+  offset:-13,-1
+  index:-1
+boss_gui_20
+  rotate:false
+  xy:429,937
+  size:56,41
+  orig:56,41
+  offset:0,0
+  index:-1
+boss_gui_sb_q
+  rotate:false
+  xy:408,689
+  size:48,46
+  orig:48,48
+  offset:0,0
+  index:-1
+gui_dazhaoxuli_bao0005
+  rotate:false
+  xy:2,714
+  size:117,114
+  orig:129,114
+  offset:2,0
+  index:-1
+gui_dazhaoxuli_bao0003
+  rotate:false
+  xy:2,830
+  size:117,114
+  orig:129,114
+  offset:2,0
+  index:-1
+boss_gui_sb_07
+  rotate:false
+  xy:236,880
+  size:52,60
+  orig:82,70
+  offset:12,-2
+  index:-1

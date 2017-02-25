@@ -1,4 +1,5 @@
 #include "AppDelegate.h"
+#include "GameApp.h"
 
 #include "audio/include/SimpleAudioEngine.h"
 #include "scripting/js-bindings/auto/jsb_cocos2dx_3d_auto.hpp"
@@ -78,8 +79,12 @@ bool AppDelegate::applicationDidFinishLaunching()
 
     // set FPS. the default value is 1.0/60 if you don't call this
     director->setAnimationInterval(1.0f / 60);
-    //1234567890
-    return true;
+	FileUtils::getInstance()->addSearchPath("res");
+
+	return GameApp::getInstance()->startGame();
+
+	///////////////////////////////////////////////////////////////////////////////
+	//register js
 
     ScriptingCore* sc = ScriptingCore::getInstance();
     sc->addRegisterCallback(register_all_cocos2dx);
