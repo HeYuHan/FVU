@@ -44,7 +44,7 @@ void GameApp::init()
 bool GameApp::startGame()
 {
 	auto c = Character::create();
-	c->loadAnimation("spine/actors/boss_ghost/skeleton.json","spine/actors/boss_ghost/skeleton0.plist.atlas");
+	c->loadAnimation("spine/actors/dark/skeleton.json","spine/actors/dark/skeleton.plist.atlas");
 	c->getAnimationPlayer()->setAnimation(0, "skill_a", true);
 	c->setPosition(getZeroPosition());
 	addCharacter(c);
