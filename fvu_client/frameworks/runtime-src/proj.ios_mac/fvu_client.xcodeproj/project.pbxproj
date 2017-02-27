@@ -76,6 +76,8 @@
 		DEFF87CE1E643FC100ECC520 /* GameApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFF87CB1E643FC100ECC520 /* GameApp.cpp */; };
 		DEFF87D51E6440BF00ECC520 /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFF87C81E643FC100ECC520 /* Character.cpp */; };
 		DEFF87D61E6440CE00ECC520 /* GameApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFF87CB1E643FC100ECC520 /* GameApp.cpp */; };
+		DEFF87D91E6445F600ECC520 /* CharacterControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFF87D71E6445F600ECC520 /* CharacterControl.cpp */; };
+		DEFF87DA1E6445F600ECC520 /* CharacterControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFF87D71E6445F600ECC520 /* CharacterControl.cpp */; };
 		ED545A821B68A21500C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A811B68A21500C3958E /* libiconv.dylib */; };
 		ED545A841B68A21C00C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A831B68A21C00C3958E /* libiconv.dylib */; };
 /* End PBXBuildFile section */
@@ -218,6 +220,8 @@
 		DEFF87CA1E643FC100ECC520 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 		DEFF87CB1E643FC100ECC520 /* GameApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameApp.cpp; sourceTree = "<group>"; };
 		DEFF87CC1E643FC100ECC520 /* GameApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameApp.h; sourceTree = "<group>"; };
+		DEFF87D71E6445F600ECC520 /* CharacterControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CharacterControl.cpp; sourceTree = "<group>"; };
+		DEFF87D81E6445F600ECC520 /* CharacterControl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CharacterControl.hpp; sourceTree = "<group>"; };
 		ED545A811B68A21500C3958E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libiconv.dylib; sourceTree = DEVELOPER_DIR; };
 		ED545A831B68A21C00C3958E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -418,6 +422,8 @@
 				DEFF87CC1E643FC100ECC520 /* GameApp.h */,
 				D4545215156E28EF00887EB5 /* AppDelegate.cpp */,
 				D4545216156E28EF00887EB5 /* AppDelegate.h */,
+				DEFF87D71E6445F600ECC520 /* CharacterControl.cpp */,
+				DEFF87D81E6445F600ECC520 /* CharacterControl.hpp */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -596,6 +602,7 @@
 			files = (
 				DEFF87D51E6440BF00ECC520 /* Character.cpp in Sources */,
 				509D4A8117EBB24E00697056 /* AppDelegate.cpp in Sources */,
+				DEFF87DA1E6445F600ECC520 /* CharacterControl.cpp in Sources */,
 				C06E23CC18CEFE680093C81A /* main.cpp in Sources */,
 				DEFF87D61E6440CE00ECC520 /* GameApp.cpp in Sources */,
 			);
@@ -610,6 +617,7 @@
 				509D4AC817EBB2AB00697056 /* main.m in Sources */,
 				DEFF87CD1E643FC100ECC520 /* Character.cpp in Sources */,
 				509D4ABC17EBB2AB00697056 /* AppController.mm in Sources */,
+				DEFF87D91E6445F600ECC520 /* CharacterControl.cpp in Sources */,
 				DEFF87CE1E643FC100ECC520 /* GameApp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
