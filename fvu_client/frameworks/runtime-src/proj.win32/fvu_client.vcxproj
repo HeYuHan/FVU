@@ -180,6 +180,7 @@ copy "$(ProjectDir)..\..\..\project.json" "$(OutDir)\" /Y</Command>
   <ItemGroup>
     <ClCompile Include="..\Classes\Character.cpp" />
     <ClCompile Include="..\Classes\GameApp.cpp" />
+    <ClCompile Include="..\Classes\Level.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
   </ItemGroup>
@@ -187,6 +188,7 @@ copy "$(ProjectDir)..\..\..\project.json" "$(OutDir)\" /Y</Command>
     <ClInclude Include="..\Classes\Character.h" />
     <ClInclude Include="..\Classes\Define.h" />
     <ClInclude Include="..\Classes\GameApp.h" />
+    <ClInclude Include="..\Classes\Level.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="..\Classes\AppDelegate.h" />
     <ClInclude Include="resource.h" />
