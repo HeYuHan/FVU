@@ -24,4 +24,13 @@ public:\
 	{\
 	return m_##__NAME__; \
 	}
+
+enum ResourceType
+{
+	ATLAS,TEXTURE
+};
+
+
+
+
 #endif

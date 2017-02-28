@@ -11,7 +11,7 @@ GET_SET_POINTER(SkeletonAnimation,AnimationPlayer)
 public:
 	Character();
 	~Character();
-	bool init();
+	bool virtual init();
 	bool loadAnimation(const string &spine_path, const string &atlas_path);
 	CREATE_FUNC(Character)
 
