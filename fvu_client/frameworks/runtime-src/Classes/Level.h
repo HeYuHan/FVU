@@ -3,8 +3,11 @@
 #include "Define.h"
 #include "cocos2d.h"
 #include "Character.h"
-class Level:public cocos2d::Node
+class Level:public cocos2d::Layer
 {
+	GET_SET_POINTER(cocos2d::DrawNode, DrawNode)
+	GET_SET(cocos2d::Vector<Character*>, CharacterList)
+	GET_SET_POINTER(cocos2d::EventListenerTouchOneByOne, TouchListener);
 private:
 	cocos2d::Sprite* m_BackGround;
 public:
@@ -12,11 +15,20 @@ public:
 	~Level();
 	CREATE_FUNC(Level)
 	bool virtual init();
+	virtual void update(float delta);
+	void begin();
+	void end();
 	void addCharacter(Character* c);
+	void setBackGround(const string &sprite_name, ResourceType res_type = TEXTURE);
+private:
+	void cleanCharacterList();
+	bool onLevelTouchBegan(cocos2d::Touch* t, cocos2d::Event* e);
+	void onLevelTouchMoved(cocos2d::Touch* t, cocos2d::Event* e);
+	void onLevelTouchEnded(cocos2d::Touch* t, cocos2d::Event* e);
 public:
 	static Level* getInstance();
-	static Vec2 getCenterPosition();
-	static Vec2 getZeroPosition();
+	static cocos2d::Vec2 getCenterPosition();
+	static cocos2d::Vec2 getZeroPosition();
 private:
 
 };

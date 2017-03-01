@@ -10,6 +10,7 @@ class GameApp:public cocos2d::Ref
 	GET_SET_POINTER(Scene, MainScene)
 	GET_SET_POINTER(Level,GlobalLevel)
 	GET_SET(Size, DesignResolutionSize)
+	GET_SET(unsigned int,ID)
 
 public:
 	virtual ~GameApp();

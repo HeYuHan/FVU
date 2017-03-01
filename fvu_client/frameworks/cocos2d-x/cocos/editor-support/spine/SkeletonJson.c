@@ -853,8 +853,9 @@ spSkeletonData* spSkeletonJson_readSkeletonData (spSkeletonJson* self, const cha
 						type = SP_ATTACHMENT_REGION;
 					else if (strcmp(typeString, "mesh") == 0)
 						type = SP_ATTACHMENT_MESH;
+					//@hlx support spine 2.1.27
 					else if (strcmp(typeString, "skinnedmesh") == 0)
-						type = SP_ATTACHMENT_SKINNED_MESH;
+						type = SP_ATTACHMENT_LINKED_MESH;
 					else if (strcmp(typeString, "linkedmesh") == 0)
 						type = SP_ATTACHMENT_LINKED_MESH;
 					else if (strcmp(typeString, "boundingbox") == 0)
@@ -902,7 +903,6 @@ spSkeletonData* spSkeletonJson_readSkeletonData (spSkeletonJson* self, const cha
 						spAttachmentLoader_configureAttachment(self->attachmentLoader, attachment);
 						break;
 					}
-					case SP_ATTACHMENT_SKINNED_MESH:
 					case SP_ATTACHMENT_MESH:
 					case SP_ATTACHMENT_LINKED_MESH: {
 						spMeshAttachment* mesh = SUB_CAST(spMeshAttachment, attachment);
