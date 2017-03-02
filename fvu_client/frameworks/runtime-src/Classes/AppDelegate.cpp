@@ -44,6 +44,8 @@
 #include "cocos/scripting/js-bindings/manual/platform/ios/JavaScriptObjCBridge.h"
 #endif
 
+#include "CharacterJSB.h"
+
 USING_NS_CC;
 using namespace CocosDenshion;
 
@@ -81,7 +83,8 @@ bool AppDelegate::applicationDidFinishLaunching()
     director->setAnimationInterval(1.0f / 60);
 	FileUtils::getInstance()->addSearchPath("res");
 
-	return GameApp::getInstance()->startGame();
+
+	
 
 	///////////////////////////////////////////////////////////////////////////////
 	//register js
@@ -129,6 +132,7 @@ bool AppDelegate::applicationDidFinishLaunching()
 
     // 3d extension can be commented out to reduce the package
     sc->addRegisterCallback(register_all_cocos2dx_3d_extension);
+	sc->addRegisterCallback(register_all_character);
 
 #if CC_USE_3D_PHYSICS && CC_ENABLE_BULLET_INTEGRATION
     // Physics 3d can be commented out to reduce the package
@@ -165,7 +169,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     ScriptEngineProtocol *engine = ScriptingCore::getInstance();
     ScriptEngineManager::getInstance()->setScriptEngine(engine);
     ScriptingCore::getInstance()->runScript("main.js");
-
+	return GameApp::getInstance()->startGame();
     return true;
 }
 

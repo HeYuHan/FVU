@@ -1,0 +1,446 @@
+skeleton0.png
+size:1022,122
+foramt:RGBA8888
+filter:Linear,Linear
+repeat:none
+kalun_03
+  rotate:true
+  xy:991,52
+  size:23,25
+  orig:23,25
+  offset:0,0
+  index:-1
+kalun_02
+  rotate:true
+  xy:963,99
+  size:19,26
+  orig:19,26
+  offset:0,0
+  index:-1
+kalun_01
+  rotate:true
+  xy:60,2
+  size:94,54
+  orig:94,54
+  offset:0,0
+  index:-1
+kalun_d4
+  rotate:true
+  xy:897,2
+  size:64,63
+  orig:94,77
+  offset:-6,0
+  index:-1
+kalun_04
+  rotate:false
+  xy:630,107
+  size:17,13
+  orig:17,13
+  offset:0,0
+  index:-1
+kalun_18
+  rotate:true
+  xy:60,98
+  size:22,31
+  orig:22,31
+  offset:0,0
+  index:-1
+kalun_23
+  rotate:false
+  xy:887,100
+  size:23,20
+  orig:23,20
+  offset:0,0
+  index:-1
+kalun_27
+  rotate:false
+  xy:707,73
+  size:64,29
+  orig:64,29
+  offset:0,0
+  index:-1
+up_kalun_11
+  rotate:true
+  xy:649,106
+  size:14,50
+  orig:14,50
+  offset:0,0
+  index:-1
+kalun_b6
+  rotate:false
+  xy:409,79
+  size:56,41
+  orig:94,77
+  offset:10,2
+  index:-1
+up_kalun_08
+  rotate:true
+  xy:673,2
+  size:69,65
+  orig:69,65
+  offset:0,0
+  index:-1
+up_kalun_09
+  rotate:true
+  xy:751,104
+  size:16,23
+  orig:16,23
+  offset:0,0
+  index:-1
+up_kalun_06
+  rotate:true
+  xy:118,98
+  size:22,14
+  orig:22,14
+  offset:0,0
+  index:-1
+up_kalun_02
+  rotate:true
+  xy:940,68
+  size:29,24
+  orig:29,24
+  offset:0,0
+  index:-1
+kalun_24
+  rotate:false
+  xy:600,74
+  size:25,34
+  orig:25,34
+  offset:0,0
+  index:-1
+up_kalun_27
+  rotate:true
+  xy:867,2
+  size:65,28
+  orig:65,28
+  offset:0,0
+  index:-1
+kalun_26
+  rotate:true
+  xy:286,81
+  size:38,41
+  orig:38,41
+  offset:0,0
+  index:-1
+kalun_14
+  rotate:true
+  xy:966,60
+  size:13,11
+  orig:13,11
+  offset:0,0
+  index:-1
+kalun_06
+  rotate:false
+  xy:701,106
+  size:23,14
+  orig:23,14
+  offset:0,0
+  index:-1
+kalun_16
+  rotate:false
+  xy:940,99
+  size:21,21
+  orig:21,21
+  offset:0,0
+  index:-1
+up_kalun_10
+  rotate:true
+  xy:228,82
+  size:38,56
+  orig:38,56
+  offset:0,0
+  index:-1
+kalun_22
+  rotate:false
+  xy:116,84
+  size:14,12
+  orig:14,12
+  offset:0,0
+  index:-1
+up_kalun_13
+  rotate:false
+  xy:93,98
+  size:23,22
+  orig:23,22
+  offset:0,0
+  index:-1
+kalun_e2
+  rotate:false
+  xy:644,73
+  size:61,31
+  orig:75,49
+  offset:-1,0
+  index:-1
+kalun_e3
+  rotate:true
+  xy:571,74
+  size:41,27
+  orig:75,49
+  offset:8,0
+  index:-1
+kalun_b5
+  rotate:true
+  xy:545,2
+  size:70,59
+  orig:94,77
+  offset:3,-3
+  index:-1
+kalun_b4
+  rotate:true
+  xy:480,2
+  size:72,63
+  orig:94,77
+  offset:-2,1
+  index:-1
+kalun_b7
+  rotate:true
+  xy:991,98
+  size:18,17
+  orig:94,77
+  offset:-6,2
+  index:-1
+up_kalun_12
+  rotate:true
+  xy:600,110
+  size:10,15
+  orig:10,15
+  offset:0,0
+  index:-1
+kalun_d6
+  rotate:true
+  xy:467,77
+  size:42,29
+  orig:94,77
+  offset:8,1
+  index:-1
+kalun_d2
+  rotate:false
+  xy:246,2
+  size:62,77
+  orig:94,77
+  offset:-7,0
+  index:-1
+up_kalun_32
+  rotate:false
+  xy:617,110
+  size:11,10
+  orig:11,10
+  offset:0,0
+  index:-1
+up_kalun_31
+  rotate:true
+  xy:962,2
+  size:28,58
+  orig:28,58
+  offset:0,0
+  index:-1
+up_kalun_01
+  rotate:true
+  xy:2,2
+  size:118,56
+  orig:118,56
+  offset:0,0
+  index:-1
+kalun_d5
+  rotate:true
+  xy:740,2
+  size:68,65
+  orig:94,77
+  offset:-5,0
+  index:-1
+kalun_25
+  rotate:true
+  xy:776,103
+  size:17,53
+  orig:17,53
+  offset:0,0
+  index:-1
+kalun_10
+  rotate:true
+  xy:498,76
+  size:41,55
+  orig:41,55
+  offset:0,0
+  index:-1
+kalun_11
+  rotate:false
+  xy:555,74
+  size:14,46
+  orig:14,46
+  offset:0,0
+  index:-1
+kalun_12
+  rotate:false
+  xy:992,77
+  size:8,17
+  orig:8,17
+  offset:0,0
+  index:-1
+kalun_17
+  rotate:false
+  xy:1002,77
+  size:11,11
+  orig:11,11
+  offset:0,0
+  index:-1
+kalun_d7
+  rotate:true
+  xy:134,98
+  size:14,11
+  orig:94,77
+  offset:-5,2
+  index:-1
+kalun_19
+  rotate:true
+  xy:859,100
+  size:20,26
+  orig:20,26
+  offset:0,0
+  index:-1
+kalun_09
+  rotate:true
+  xy:726,104
+  size:16,23
+  orig:16,23
+  offset:0,0
+  index:-1
+kalun_e1
+  rotate:true
+  xy:373,2
+  size:75,41
+  orig:75,49
+  offset:0,-1
+  index:-1
+kalun_28
+  rotate:false
+  xy:773,72
+  size:64,29
+  orig:64,29
+  offset:0,0
+  index:-1
+up_kalun_28
+  rotate:false
+  xy:839,69
+  size:64,29
+  orig:64,29
+  offset:0,0
+  index:-1
+kalun_b1
+  rotate:true
+  xy:181,2
+  size:78,63
+  orig:94,77
+  offset:-7,3
+  index:-1
+kalun_b3
+  rotate:true
+  xy:310,2
+  size:76,61
+  orig:94,77
+  offset:-6,2
+  index:-1
+kalun_21
+  rotate:false
+  xy:979,60
+  size:10,10
+  orig:10,10
+  offset:0,0
+  index:-1
+up_kalun_03
+  rotate:false
+  xy:966,32
+  size:23,26
+  orig:23,26
+  offset:0,0
+  index:-1
+kalun_20
+  rotate:false
+  xy:966,77
+  size:24,19
+  orig:24,19
+  offset:0,0
+  index:-1
+up_kalun_30
+  rotate:true
+  xy:627,73
+  size:32,15
+  orig:32,15
+  offset:0,0
+  index:-1
+kalun_13
+  rotate:true
+  xy:831,103
+  size:17,26
+  orig:17,26
+  offset:0,0
+  index:-1
+kalun_07
+  rotate:true
+  xy:132,84
+  size:12,14
+  orig:12,14
+  offset:0,0
+  index:-1
+kalun_15
+  rotate:false
+  xy:991,32
+  size:28,18
+  orig:28,18
+  offset:0,0
+  index:-1
+kalun_05
+  rotate:true
+  xy:912,68
+  size:52,26
+  orig:52,28
+  offset:0,1
+  index:-1
+kalun_08
+  rotate:true
+  xy:606,2
+  size:69,65
+  orig:69,65
+  offset:0,0
+  index:-1
+kalun_d3
+  rotate:false
+  xy:416,2
+  size:62,73
+  orig:94,77
+  offset:-7,0
+  index:-1
+kalun_d1
+  rotate:false
+  xy:807,2
+  size:58,65
+  orig:94,77
+  offset:-8,0
+  index:-1
+kalun_e4
+  rotate:true
+  xy:329,80
+  size:37,27
+  orig:75,49
+  offset:6,0
+  index:-1
+kalun_b2
+  rotate:true
+  xy:116,2
+  size:80,63
+  orig:94,77
+  offset:-7,3
+  index:-1
+up_kalun_05
+  rotate:false
+  xy:358,80
+  size:49,34
+  orig:49,34
+  offset:0,0
+  index:-1
+kalunyz
+  rotate:false
+  xy:148,84
+  size:78,35
+  orig:78,35
+  offset:0,0
+  index:-1

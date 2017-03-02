@@ -38,8 +38,9 @@ bool GameApp::startGame()
 	auto c = Character::create();
 	//"spine/actors/dark/skeleton.json","spine/actors/dark/skeleton.plist.atlas"
 	//"spine/actors/boss_ghost/skeleton.json", "spine/actors/boss_ghost/skeleton0.plist.atlas"
-	c->loadAnimation("spine/actors/boss_firegirl/skeleton.json", "spine/actors/boss_firegirl/skeleton0.plist.atlas",0.5f);
+	c->loadAnimation("spine/actors/boss_firegirl/skeleton.json", "spine/actors/boss_firegirl/skeleton_tex.atlas",0.5f);
 	c->getAnimationPlayer()->setAnimation(0, "walk", true);
+	c->getAnimationPlayer()->setDebugBonesEnabled(true);
 	c->setPosition(Level::getCenterPosition());
 	m_GlobalLevel->addCharacter(c);
 	m_GlobalLevel->begin();

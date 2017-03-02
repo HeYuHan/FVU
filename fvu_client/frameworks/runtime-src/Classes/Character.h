@@ -10,6 +10,7 @@ class Character:public cocos2d::Node
 GET_SET_POINTER(SkeletonAnimation,AnimationPlayer)
 GET_SET_POINTER(CharacterControl,MoveControl)
 GET_SET(cocos2d::Size,Box2D)
+GET_SET(int,UID)
 
 public:
 	CREATE_FUNC(Character)

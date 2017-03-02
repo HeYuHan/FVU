@@ -1,0 +1,468 @@
+
+skeleton_tex.png
+size: 0,0
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+qianbingweiyz
+  rotate: false
+  xy: 890 ,389
+  size: 78 ,35
+  orig: 78 ,35
+  offset: 0,0
+  index: -1
+huonv_xuanfeng0001
+  rotate: false
+  xy: 697 ,531
+  size: 150 ,90
+  orig: 150 ,90
+  offset: 0,0
+  index: -1
+huonv_xuanfeng0003
+  rotate: false
+  xy: 529 ,533
+  size: 150 ,90
+  orig: 150 ,90
+  offset: 0,0
+  index: -1
+huonv_xuanfeng0005
+  rotate: false
+  xy: 697 ,439
+  size: 150 ,90
+  orig: 150 ,90
+  offset: 0,0
+  index: -1
+huonv_xuanfeng0009
+  rotate: false
+  xy: 195 ,511
+  size: 150 ,90
+  orig: 150 ,90
+  offset: 0,0
+  index: -1
+huonv_xuanfeng0007
+  rotate: false
+  xy: 849 ,439
+  size: 150 ,90
+  orig: 150 ,90
+  offset: 0,0
+  index: -1
+boss_huo_dz_0
+  rotate: false
+  xy: 663 ,777
+  size: 67 ,56
+  orig: 67 ,56
+  offset: 0,0
+  index: -1
+boss_huo_dz_16
+  rotate: false
+  xy: 849 ,531
+  size: 104 ,65
+  orig: 104 ,65
+  offset: 0,0
+  index: -1
+boss_huo_dz_20
+  rotate: false
+  xy: 849 ,598
+  size: 80 ,78
+  orig: 80 ,78
+  offset: 0,0
+  index: -1
+boss_huo_dz_18
+  rotate: false
+  xy: 955 ,531
+  size: 68 ,92
+  orig: 68 ,92
+  offset: 0,0
+  index: -1
+boss_huo_dz_17
+  rotate: false
+  xy: 195 ,603
+  size: 95 ,82
+  orig: 95 ,82
+  offset: 0,0
+  index: -1
+boss_huo_dz_13
+  rotate: false
+  xy: 890 ,195
+  size: 106 ,89
+  orig: 106 ,89
+  offset: 0,0
+  index: -1
+boss_huo_dz_12
+  rotate: false
+  xy: 971 ,1
+  size: 48 ,67
+  orig: 48 ,67
+  offset: 0,0
+  index: -1
+boss_huo_dz_11
+  rotate: false
+  xy: 514 ,779
+  size: 55 ,71
+  orig: 55 ,71
+  offset: 0,0
+  index: -1
+boss_huo_dz_9
+  rotate: false
+  xy: 529 ,439
+  size: 166 ,92
+  orig: 166 ,92
+  offset: 0,0
+  index: -1
+boss_huo_dz_8
+  rotate: false
+  xy: 982 ,286
+  size: 37 ,23
+  orig: 37 ,23
+  offset: 0,0
+  index: -1
+boss_huo_dz_7
+  rotate: false
+  xy: 982 ,341
+  size: 26 ,32
+  orig: 26 ,32
+  offset: 0,0
+  index: -1
+boss_huo_dz_6
+  rotate: false
+  xy: 362 ,389
+  size: 19 ,44
+  orig: 19 ,44
+  offset: 0,0
+  index: -1
+boss_huo_dz_5
+  rotate: false
+  xy: 982 ,311
+  size: 30 ,28
+  orig: 30 ,28
+  offset: 0,0
+  index: -1
+boss_huo_dz_4
+  rotate: false
+  xy: 890 ,286
+  size: 90 ,101
+  orig: 90 ,101
+  offset: 0,0
+  index: -1
+boss_huo_dz_3
+  rotate: false
+  xy: 347 ,561
+  size: 88 ,100
+  orig: 88 ,100
+  offset: 0,0
+  index: -1
+boss_huo_dz_2
+  rotate: false
+  xy: 591 ,702
+  size: 70 ,80
+  orig: 70 ,80
+  offset: 0,0
+  index: -1
+boss_huo_dz_1
+  rotate: false
+  xy: 970 ,389
+  size: 28 ,46
+  orig: 28 ,46
+  offset: 0,0
+  index: -1
+boss_huo_b_09
+  rotate: false
+  xy: 514 ,702
+  size: 75 ,75
+  orig: 75 ,75
+  offset: 0,0
+  index: -1
+boss_huo_b_10
+  rotate: false
+  xy: 912 ,702
+  size: 75 ,75
+  orig: 75 ,75
+  offset: 0,0
+  index: -1
+boss_huo_b_06
+  rotate: false
+  xy: 907 ,856
+  size: 75 ,75
+  orig: 75 ,75
+  offset: 0,0
+  index: -1
+boss_huo_b_01
+  rotate: false
+  xy: 681 ,623
+  size: 75 ,75
+  orig: 75 ,75
+  offset: 0,0
+  index: -1
+boss_huo_b_04
+  rotate: false
+  xy: 931 ,625
+  size: 75 ,75
+  orig: 75 ,75
+  offset: 0,0
+  index: -1
+boss_huo_b_05
+  rotate: false
+  xy: 835 ,678
+  size: 75 ,75
+  orig: 75 ,75
+  offset: 0,0
+  index: -1
+boss_huo_b_08
+  rotate: false
+  xy: 437 ,662
+  size: 75 ,75
+  orig: 75 ,75
+  offset: 0,0
+  index: -1
+boss_huo_b_00
+  rotate: false
+  xy: 830 ,832
+  size: 75 ,75
+  orig: 75 ,75
+  offset: 0,0
+  index: -1
+boss_huo_b_02
+  rotate: false
+  xy: 753 ,700
+  size: 75 ,75
+  orig: 75 ,75
+  offset: 0,0
+  index: -1
+boss_huo_b_03
+  rotate: false
+  xy: 758 ,623
+  size: 75 ,75
+  orig: 75 ,75
+  offset: 0,0
+  index: -1
+boss_huo_b_07
+  rotate: false
+  xy: 912 ,779
+  size: 75 ,75
+  orig: 75 ,75
+  offset: 0,0
+  index: -1
+boss_huo_b_14
+  rotate: false
+  xy: 676 ,700
+  size: 75 ,75
+  orig: 75 ,75
+  offset: 0,0
+  index: -1
+boss_huo_b_12
+  rotate: false
+  xy: 522 ,625
+  size: 75 ,75
+  orig: 75 ,75
+  offset: 0,0
+  index: -1
+boss_huo_b_13
+  rotate: false
+  xy: 753 ,777
+  size: 75 ,75
+  orig: 75 ,75
+  offset: 0,0
+  index: -1
+boss_huo_b_15
+  rotate: false
+  xy: 599 ,625
+  size: 75 ,75
+  orig: 75 ,75
+  offset: 0,0
+  index: -1
+boss_huo_b_11
+  rotate: false
+  xy: 835 ,755
+  size: 75 ,75
+  orig: 75 ,75
+  offset: 0,0
+  index: -1
+boss_huo_m_20
+  rotate: false
+  xy: 1 ,777
+  size: 192 ,192
+  orig: 192 ,192
+  offset: 0,0
+  index: -1
+boss_huo_m_18
+  rotate: false
+  xy: 1 ,583
+  size: 192 ,192
+  orig: 192 ,192
+  offset: 0,0
+  index: -1
+boss_huo_m_36
+  rotate: false
+  xy: 195 ,195
+  size: 192 ,192
+  orig: 192 ,192
+  offset: 0,0
+  index: -1
+boss_huo_m_30
+  rotate: false
+  xy: 777 ,1
+  size: 192 ,192
+  orig: 192 ,192
+  offset: 0,0
+  index: -1
+boss_huo_m_28
+  rotate: false
+  xy: 1 ,389
+  size: 192 ,192
+  orig: 192 ,192
+  offset: 0,0
+  index: -1
+boss_huo_m_26
+  rotate: false
+  xy: 195 ,1
+  size: 192 ,192
+  orig: 192 ,192
+  offset: 0,0
+  index: -1
+boss_huo_m_34
+  rotate: false
+  xy: 1 ,195
+  size: 192 ,192
+  orig: 192 ,192
+  offset: 0,0
+  index: -1
+boss_huo_m_24
+  rotate: false
+  xy: 1 ,1
+  size: 192 ,192
+  orig: 192 ,192
+  offset: 0,0
+  index: -1
+boss_huo_m_22
+  rotate: false
+  xy: 389 ,1
+  size: 192 ,192
+  orig: 192 ,192
+  offset: 0,0
+  index: -1
+boss_huo_m_32
+  rotate: false
+  xy: 583 ,1
+  size: 192 ,192
+  orig: 192 ,192
+  offset: 0,0
+  index: -1
+hv_gh_10001
+  rotate: false
+  xy: 362 ,439
+  size: 165 ,120
+  orig: 165 ,120
+  offset: 0,0
+  index: -1
+hv_gh_10003
+  rotate: false
+  xy: 556 ,195
+  size: 165 ,120
+  orig: 165 ,120
+  offset: 0,0
+  index: -1
+hv_gh_10011
+  rotate: false
+  xy: 195 ,389
+  size: 165 ,120
+  orig: 165 ,120
+  offset: 0,0
+  index: -1
+hv_gh_10013
+  rotate: false
+  xy: 723 ,195
+  size: 165 ,120
+  orig: 165 ,120
+  offset: 0,0
+  index: -1
+hv_gh_10005
+  rotate: false
+  xy: 389 ,195
+  size: 165 ,120
+  orig: 165 ,120
+  offset: 0,0
+  index: -1
+hv_gh_10009
+  rotate: false
+  xy: 723 ,317
+  size: 165 ,120
+  orig: 165 ,120
+  offset: 0,0
+  index: -1
+hv_gh_10015
+  rotate: false
+  xy: 556 ,317
+  size: 165 ,120
+  orig: 165 ,120
+  offset: 0,0
+  index: -1
+hv_gh_10007
+  rotate: false
+  xy: 389 ,317
+  size: 165 ,120
+  orig: 165 ,120
+  offset: 0,0
+  index: -1
+boss_huo_dz_15
+  rotate: false
+  xy: 437 ,561
+  size: 83 ,99
+  orig: 83 ,99
+  offset: 0,0
+  index: -1
+boss_huo_s_5
+  rotate: false
+  xy: 374 ,435
+  size: 1 ,1
+  orig: 1 ,1
+  offset: 0,0
+  index: -1
+boss_huo_s_8
+  rotate: false
+  xy: 380 ,435
+  size: 1 ,1
+  orig: 1 ,1
+  offset: 0,0
+  index: -1
+boss_huo_s_1
+  rotate: false
+  xy: 377 ,435
+  size: 1 ,1
+  orig: 1 ,1
+  offset: 0,0
+  index: -1
+boss_huo_s_4
+  rotate: false
+  xy: 371 ,435
+  size: 1 ,1
+  orig: 1 ,1
+  offset: 0,0
+  index: -1
+boss_huo_s_2
+  rotate: false
+  xy: 365 ,435
+  size: 1 ,1
+  orig: 1 ,1
+  offset: 0,0
+  index: -1
+boss_huo_s_3
+  rotate: false
+  xy: 368 ,435
+  size: 1 ,1
+  orig: 1 ,1
+  offset: 0,0
+  index: -1
+boss_huo_s_6
+  rotate: false
+  xy: 907 ,832
+  size: 1 ,1
+  orig: 1 ,1
+  offset: 0,0
+  index: -1
+boss_huo_s_7
+  rotate: false
+  xy: 362 ,435
+  size: 1 ,1
+  orig: 1 ,1
+  offset: 0,0
+  index: -1
