@@ -24,4 +24,14 @@ public:\
 	{\
 	return m_##__NAME__; \
 	}
+
+#define TEST_CHRACTER_BOX
+enum ResourceType
+{
+	ATLAS,TEXTURE
+};
+
+
+
+
 #endif
