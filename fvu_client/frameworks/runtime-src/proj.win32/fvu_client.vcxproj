@@ -178,12 +178,14 @@ copy "$(ProjectDir)..\..\..\project.json" "$(OutDir)\" /Y</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Classes\addressbook.pb.cc" />
-    <ClCompile Include="..\Classes\Character.cpp" />
-    <ClCompile Include="..\Classes\CharacterControl.cpp" />
-    <ClCompile Include="..\Classes\CharacterJSB.cpp" />
-    <ClCompile Include="..\Classes\GameApp.cpp" />
-    <ClCompile Include="..\Classes\Level.cpp" />
+    <ClCompile Include="..\Classes\game\Character.cpp" />
+    <ClCompile Include="..\Classes\game\CharacterControl.cpp" />
+    <ClCompile Include="..\Classes\game\GameApp.cpp" />
+    <ClCompile Include="..\Classes\game\Level.cpp" />
+    <ClCompile Include="..\Classes\jsb\CharacterJSB.cpp" />
+    <ClCompile Include="..\Classes\msg\addressbook.pb.cc" />
+    <ClCompile Include="..\Classes\network\networkstream.cpp" />
+    <ClCompile Include="..\Classes\network\tcp.cpp" />
     <ClCompile Include="..\protobuf\src\google\protobuf\any.cc" />
     <ClCompile Include="..\protobuf\src\google\protobuf\any.pb.cc" />
     <ClCompile Include="..\protobuf\src\google\protobuf\api.pb.cc" />
@@ -261,13 +263,16 @@ copy "$(ProjectDir)..\..\..\project.json" "$(OutDir)\" /Y</Command>
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Classes\addressbook.pb.h" />
-    <ClInclude Include="..\Classes\Character.h" />
-    <ClInclude Include="..\Classes\CharacterControl.hpp" />
-    <ClInclude Include="..\Classes\CharacterJSB.h" />
-    <ClInclude Include="..\Classes\Define.h" />
-    <ClInclude Include="..\Classes\GameApp.h" />
-    <ClInclude Include="..\Classes\Level.h" />
+    <ClInclude Include="..\Classes\common\Define.h" />
+    <ClInclude Include="..\Classes\game\Character.h" />
+    <ClInclude Include="..\Classes\game\CharacterControl.hpp" />
+    <ClInclude Include="..\Classes\game\GameApp.h" />
+    <ClInclude Include="..\Classes\game\Level.h" />
+    <ClInclude Include="..\Classes\jsb\CharacterJSB.h" />
+    <ClInclude Include="..\Classes\msg\addressbook.pb.h" />
+    <ClInclude Include="..\Classes\msg\BaseMsg.h" />
+    <ClInclude Include="..\Classes\network\networkstream.h" />
+    <ClInclude Include="..\Classes\network\tcp.h" />
     <ClInclude Include="..\protobuf\src\google\protobuf\any.h" />
     <ClInclude Include="..\protobuf\src\google\protobuf\any.pb.h" />
     <ClInclude Include="..\protobuf\src\google\protobuf\api.pb.h" />

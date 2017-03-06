@@ -365,6 +365,9 @@
     <ClInclude Include="src\google\protobuf\wire_format_lite_inl.h" />
     <ClInclude Include="src\google\protobuf\wrappers.pb.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="protobuf.def" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{BF1E40C3-30D3-402C-B864-22B7D78DD5F0}</ProjectGuid>
     <RootNamespace>protobuf</RootNamespace>
@@ -408,6 +411,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>protobuf.def</ModuleDefinitionFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -424,6 +428,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>protobuf.def</ModuleDefinitionFile>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

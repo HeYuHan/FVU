@@ -1107,4 +1107,9 @@
       <Filter>compiler\csharp</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="protobuf.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>

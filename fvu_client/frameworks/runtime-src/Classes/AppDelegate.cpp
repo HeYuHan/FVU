@@ -1,5 +1,5 @@
 #include "AppDelegate.h"
-#include "GameApp.h"
+#include "Game/GameApp.h"
 
 #include "audio/include/SimpleAudioEngine.h"
 #include "scripting/js-bindings/auto/jsb_cocos2dx_3d_auto.hpp"
@@ -44,7 +44,7 @@
 #include "cocos/scripting/js-bindings/manual/platform/ios/JavaScriptObjCBridge.h"
 #endif
 
-#include "CharacterJSB.h"
+#include "JSB/CharacterJSB.h"
 
 USING_NS_CC;
 using namespace CocosDenshion;
