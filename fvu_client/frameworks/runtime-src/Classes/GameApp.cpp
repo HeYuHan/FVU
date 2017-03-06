@@ -1,6 +1,6 @@
 #include "GameApp.h"
 using namespace std;
-
+#include "addressbook.pb.h"
 static GameApp* _globalApp = nullptr;
 GameApp::GameApp():
 	m_MainScene(nullptr),
@@ -44,5 +44,16 @@ bool GameApp::startGame()
 	c->setPosition(Level::getCenterPosition());
 	m_GlobalLevel->addCharacter(c);
 	m_GlobalLevel->begin();
+	auto p = new tutorial::Person();
+	p->set_name("hlx");
+	p->set_email("@fff.com");
+	auto phone = p->add_phones();
+	phone->set_number("1234567");
+	char data[128] = { 0 };
+	p->SerializeToArray(data, 128);
+	int len1 = p->ByteSizeLong();
+	int len2 = strlen(data);
+	auto p2 = new tutorial::Person();
+	p2->ParseFromArray(data, 128);
 	return true;
 }

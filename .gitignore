@@ -6,3 +6,4 @@ fvu_client/frameworks/runtime-src/proj.android-studio
 fvu_client/frameworks/runtime-src/proj.linux
 fvu_client/frameworks/runtime-src/proj.win8.1-universal
 *.pbxproj
+*Debug
