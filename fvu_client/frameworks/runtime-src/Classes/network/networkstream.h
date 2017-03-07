@@ -16,16 +16,18 @@ private:
 	VAR_POINTER(char, WritePosition);
 	VAR_POINTER(char, ReadOffset);
 	VAR_POINTER(char, ReadPosition);
+	VAR_POINTER(char, CacheMessage);
+	VAR(int, CacheMessageLength);
 	VAR_POINTER(TcpConnection, Connection);
 public:
 	NetworkStream();
 	~NetworkStream();
 	bool init();
 	void setConnection(TcpConnection* con);
-	bool writeMessagePacket(MessagePacket *p);
 	bool writeMessage(FVU_MSG *msg, MSG_ID id);
-	bool readMessage(FVU_MSG *msg, MSG_ID &id);
-	bool readMessagePacket(MessagePacket *p);
+	bool getMessage(FVU_MSG *msg);
+	bool readMessage(MSG_ID &id);
+	void update();
 private:
 
 };

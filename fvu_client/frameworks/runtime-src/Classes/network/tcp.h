@@ -25,10 +25,10 @@
 NS_FVU_BEGIN
 class TcpConnection
 {
-private:
-	SOCKET m_Socket;
+	GET_SET(bool, Connected);
+	GET_SET(SOCKET, Socket);
 public:
-	int init();
+	bool init();
 	TcpConnection();
 	~TcpConnection();
 	bool create(bool bKeepAlive=false);

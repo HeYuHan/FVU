@@ -1,0 +1,20 @@
+syntax = "proto3";
+package FVU;
+message ChildMessage
+{
+	fixed32 FixedValue=1;//和int32一样。
+}
+message TestMessage{
+
+	bool BoolValue=1;
+	double DoubleValue=2;
+	float FloatValue=3;
+	int32 IntValue=4;
+	uint32 UIntValue=5;
+	int64 Int64Value=6;
+	uint64 UInt64Value=7;
+	sint32 SInt32Value=8;//处理负数效率更高，但是存储空间会更大
+	string StringValue=9;//貌似只能处理ASCII
+	bytes BytesValue=10;//处理中文字符串
+	repeated ChildMessage childMessage=11;
+}

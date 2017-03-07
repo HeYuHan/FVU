@@ -47,6 +47,7 @@
 #include "JSB/CharacterJSB.h"
 
 USING_NS_CC;
+using namespace FVU;
 using namespace CocosDenshion;
 
 AppDelegate::AppDelegate()

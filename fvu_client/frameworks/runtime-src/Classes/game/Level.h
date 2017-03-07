@@ -1,6 +1,6 @@
 #ifndef __LEVEL_H__
 #define __LEVEL_H__
-#include "Define.h"
+#include "Common/Define.h"
 #include "cocos2d.h"
 #include "Character.h"
 NS_FVU_BEGIN

@@ -116,7 +116,10 @@ GOOGLE_ATTRIBUTE_ALWAYS_INLINE bool InlineParsePartialFromArray(
 
 inline bool InlineMergeFromCodedStream(io::CodedInputStream* input,
                                        MessageLite* message) {
-  if (!message->MergePartialFromCodedStream(input)) return false;
+	if (!message->MergePartialFromCodedStream(input))
+	{
+		return false;
+	}
   if (!message->IsInitialized()) {
     GOOGLE_LOG(ERROR) << InitializationErrorMessage("parse", *message);
     return false;

@@ -1,6 +1,6 @@
 #include "tcp.h"
 NS_FVU_BEGIN
-int TcpConnection::init()
+bool TcpConnection::init()
 {
 #ifdef WIN32_SOCKET
 	WSADATA wData;
@@ -8,12 +8,13 @@ int TcpConnection::init()
 	int ret = WSAStartup(version, &wData);
 	if (ret)
 	{
-		return -1;
+		return false;
 	}
 #endif
-	return 0;
+	return true;
 }
-TcpConnection::TcpConnection()
+TcpConnection::TcpConnection():
+m_Connected(false)
 {
 
 }
@@ -102,6 +103,7 @@ bool TcpConnection::connect(const char* ip, unsigned short port, int nBlockSec)
 	so_linger.l_onoff = 1;
 	so_linger.l_linger = 500;
 	setsockopt(m_Socket, SOL_SOCKET, SO_LINGER, (const char*)&so_linger, sizeof(so_linger));
+	m_Connected = true;
 	return true;
 }
 int TcpConnection::send(const char* buff, int len, int flags /* = 0 */)
@@ -120,6 +122,7 @@ int TcpConnection::recv(char* buff, int len, int flags/* =0 */)
 int TcpConnection::close()
 {
 #ifdef WIN32_SOCKET
+	m_Connected = false;
 	closesocket(m_Socket);
 	return (WSACleanup());
 #else

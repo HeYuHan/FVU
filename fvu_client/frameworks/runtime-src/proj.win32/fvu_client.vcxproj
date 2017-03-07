@@ -183,7 +183,7 @@ copy "$(ProjectDir)..\..\..\project.json" "$(OutDir)\" /Y</Command>
     <ClCompile Include="..\Classes\game\GameApp.cpp" />
     <ClCompile Include="..\Classes\game\Level.cpp" />
     <ClCompile Include="..\Classes\jsb\CharacterJSB.cpp" />
-    <ClCompile Include="..\Classes\msg\addressbook.pb.cc" />
+    <ClCompile Include="..\Classes\msg\testmsg.pb.cc" />
     <ClCompile Include="..\Classes\network\networkstream.cpp" />
     <ClCompile Include="..\Classes\network\tcp.cpp" />
     <ClCompile Include="..\protobuf\src\google\protobuf\any.cc" />
@@ -269,8 +269,8 @@ copy "$(ProjectDir)..\..\..\project.json" "$(OutDir)\" /Y</Command>
     <ClInclude Include="..\Classes\game\GameApp.h" />
     <ClInclude Include="..\Classes\game\Level.h" />
     <ClInclude Include="..\Classes\jsb\CharacterJSB.h" />
-    <ClInclude Include="..\Classes\msg\addressbook.pb.h" />
     <ClInclude Include="..\Classes\msg\BaseMsg.h" />
+    <ClInclude Include="..\Classes\msg\testmsg.pb.h" />
     <ClInclude Include="..\Classes\network\networkstream.h" />
     <ClInclude Include="..\Classes\network\tcp.h" />
     <ClInclude Include="..\protobuf\src\google\protobuf\any.h" />

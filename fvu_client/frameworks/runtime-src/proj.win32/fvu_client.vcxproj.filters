@@ -64,9 +64,6 @@
     <ClCompile Include="..\Classes\jsb\CharacterJSB.cpp">
       <Filter>Classes\jsb</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\msg\addressbook.pb.cc">
-      <Filter>Classes\msg</Filter>
-    </ClCompile>
     <ClCompile Include="..\protobuf\src\google\protobuf\util\field_comparator.cc">
       <Filter>protobuf\util</Filter>
     </ClCompile>
@@ -292,6 +289,9 @@
     <ClCompile Include="..\Classes\network\tcp.cpp">
       <Filter>Classes\network</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\msg\testmsg.pb.cc">
+      <Filter>Classes\msg</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Classes\AppDelegate.h">
@@ -315,9 +315,6 @@
     </ClInclude>
     <ClInclude Include="..\Classes\jsb\CharacterJSB.h">
       <Filter>Classes\jsb</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\msg\addressbook.pb.h">
-      <Filter>Classes\msg</Filter>
     </ClInclude>
     <ClInclude Include="..\protobuf\src\google\protobuf\util\field_comparator.h">
       <Filter>protobuf\util</Filter>
@@ -713,6 +710,9 @@
       <Filter>Classes\common</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\msg\BaseMsg.h">
+      <Filter>Classes\msg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\msg\testmsg.pb.h">
       <Filter>Classes\msg</Filter>
     </ClInclude>
   </ItemGroup>

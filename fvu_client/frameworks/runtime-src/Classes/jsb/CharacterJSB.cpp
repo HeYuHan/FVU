@@ -3,6 +3,7 @@
 #include "scripting/js-bindings/manual/cocos2d_specifics.hpp"
 using namespace cocos2d;
 using namespace JS;
+NS_FVU_BEGIN
 JSClass* jsb_character_class;
 JSObject* jsb_character_prototype;
 bool js_character_constructor(JSContext* cx, uint32_t argc, jsval* vp)
@@ -149,3 +150,4 @@ void register_all_character(JSContext* cx, HandleObject global)
 	JS_DefineFunction(cx, proto, "retain", js_cocos2dx_retain, 0, JSPROP_READONLY | JSPROP_PERMANENT);
 	JS_DefineFunction(cx, proto, "release", js_cocos2dx_release, 0, JSPROP_READONLY | JSPROP_PERMANENT);
 }
+NS_FVU_END

@@ -7,7 +7,11 @@ Level* Level::getInstance()
 	if (!gLevel)
 	{
 		gLevel = Level::create();
-		gLevel->init();
+		if (!gLevel->init())
+		{
+			gLevel->release();
+			gLevel = nullptr;
+		}
 	}
 	return gLevel;
 }
