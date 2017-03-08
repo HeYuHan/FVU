@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration scan="true" scanPeriod="5 seconds">
+
+    <contextName>fvu</contextName>
+    <property name="LOG_HOME" value="./logs" />
+
+    <!-- 命令行 -->
+    <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%date [%thread] %-5level %logger - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 全部日志文件输出 -->
+    <appender name="all" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/fvu.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <fileNamePattern>${LOG_HOME}/fvu.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>12</maxIndex>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>50MB</maxFileSize>
+        </triggeringPolicy>
+        <encoder>
+            <pattern>%date [%thread] %-5level %logger - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 错误日志文件输出 -->
+    <appender name="error" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>WARN</level>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_HOME}/error/fvu_error.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>90</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%date [%thread] %-5level %logger [%class:%method:%line] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.mysql" value="DEBUG" />
+    <logger name="org.apache.struts2" value="DEBUG" />
+    <logger name="com.opensymphony.xwork2" value="DEBUG" />
+    <logger name="freemarker" value="DEBUG" />
+
+    <root level="INFO">
+        <appender-ref ref="stdout" />
+        <appender-ref ref="all" />
+        <appender-ref ref="error" />
+    </root>
+
+</configuration>
