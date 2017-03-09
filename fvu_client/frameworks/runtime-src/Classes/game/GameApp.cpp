@@ -30,7 +30,16 @@ GameApp* GameApp::getInstance()
 	if (!_globalApp)
 	{
 		_globalApp = new (std::nothrow) GameApp();
-		_globalApp->init();
+		if(!_globalApp->init())
+		{
+			delete _globalApp;
+			_globalApp = nullptr;
+			return nullptr;
+		}
+		_globalApp->retain();
+		_globalApp->autorelease();
+		
+		
 	}
 	return _globalApp;
 }
@@ -63,7 +72,7 @@ bool GameApp::createNetwork()
 }
 bool GameApp::init()
 {
-	if (!createNetwork())return false;
+	
 	m_DesignResolutionSize = Size(640, 480);
 	m_MainScene = Scene::create();
 	m_GlobalLevel = Level::getInstance();
@@ -77,17 +86,17 @@ bool GameApp::init()
 }
 bool GameApp::startGame()
 {
-	m_GlobalLevel->setBackGround("stan/battlebackground/battle_background_arena_01.png");
-	auto c = Character::create();
-	//"spine/actors/dark/skeleton.json","spine/actors/dark/skeleton.plist.atlas"
-	//"spine/actors/boss_ghost/skeleton.json", "spine/actors/boss_ghost/skeleton0.plist.atlas"
-	c->loadAnimation("spine/actors/boss_firegirl/skeleton.json", "spine/actors/boss_firegirl/skeleton_tex.atlas",0.5f);
-	c->getAnimationPlayer()->setAnimation(0, "walk", true);
-	c->getAnimationPlayer()->setDebugBonesEnabled(true);
-	c->setPosition(Level::getCenterPosition());
-	m_GlobalLevel->addCharacter(c);
+	//m_GlobalLevel->setBackGround("stan/battlebackground/battle_background_arena_01.png");
+	
 	m_GlobalLevel->begin();
-#if 1
+	auto c = Character::create();
+	//c->loadAnimation("spine/actors/boss_firegirl/skeleton.json", "spine/actors/boss_firegirl/skeleton_tex.atlas",0.5f);
+	//c->getAnimationPlayer()->setAnimation(0, "walk", true);
+	//c->getAnimationPlayer()->setDebugBonesEnabled(true);
+	c->setPosition(m_GlobalLevel->getFightAreaOrigin());
+	m_GlobalLevel->addCharacter(c);
+#if 0
+	if (!createNetwork())return false;
 	TestMessage* tm = new TestMessage();
 	tm->set_boolvalue(true);
 	tm->set_doublevalue(0.01);

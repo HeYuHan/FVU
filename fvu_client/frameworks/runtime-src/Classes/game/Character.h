@@ -8,10 +8,12 @@ using namespace spine;
 NS_FVU_BEGIN
 class Character:public cocos2d::Node
 {
-GET_SET_POINTER(SkeletonAnimation,AnimationPlayer)
-GET_SET_POINTER(CharacterControl,MoveControl)
-GET_SET(cocos2d::Size,Box2D)
-GET_SET(int,UID)
+	GET_SET_POINTER(SkeletonAnimation, AnimationPlayer);
+	GET_SET(cocos2d::Size, BodyBox);
+	GET_SET(int, UID);
+	GET_SET(cocos2d::Vec2, WantMovePosition);
+private:
+	VAR_POINTER(CharacterControl, MoveControl);
 
 public:
 	CREATE_FUNC(Character)
@@ -19,9 +21,9 @@ public:
 	~Character();
 	bool virtual init();
 	bool loadAnimation(const string &spine_path, const string &atlas_path,float scale=1);
-	bool boxContainPoint(cocos2d::Vec2 &pos);
-
-
+	bool bodyContainPoint(cocos2d::Vec2 &pos);
+	void drawWantMovePoistion(cocos2d::DrawNode* drawNode);
+	void Move();
 };
 NS_FVU_END
 #endif
