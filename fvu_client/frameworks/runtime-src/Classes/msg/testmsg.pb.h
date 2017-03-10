@@ -3,7 +3,6 @@
 
 #ifndef PROTOBUF_testmsg_2eproto__INCLUDED
 #define PROTOBUF_testmsg_2eproto__INCLUDED
-
 #include <string>
 
 #include <google/protobuf/stubs/common.h>

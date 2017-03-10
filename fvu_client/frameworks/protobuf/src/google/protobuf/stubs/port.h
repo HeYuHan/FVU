@@ -30,6 +30,11 @@
 
 #ifndef GOOGLE_PROTOBUF_STUBS_PORT_H_
 #define GOOGLE_PROTOBUF_STUBS_PORT_H_
+//@hlx
+#define PROTOBUF_USE_DLLS
+#define LIBPROTOBUF_EXPORTS
+#define LIBPROTOC_EXPORTS
+//////////////////////////////////////////
 
 #include <assert.h>
 #include <stdlib.h>

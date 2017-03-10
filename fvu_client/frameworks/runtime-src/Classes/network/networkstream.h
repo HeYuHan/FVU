@@ -2,8 +2,7 @@
 #define __NETSTREAM_H__
 #include "tcp.h"
 #include "Common/Define.h"
-#include "msg/BaseMsg.h"
-typedef ::google::protobuf::Message FVU_MSG;
+#include "msg/allmsg.h"
 NS_FVU_BEGIN
 #define RECV_BUFF_LEN 1024*10
 #define SEND_BUFF_LEN 1024*10

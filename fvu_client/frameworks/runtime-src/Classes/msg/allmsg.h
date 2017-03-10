@@ -3,6 +3,7 @@
 NS_FVU_BEGIN
 typedef unsigned int MSG_HEAD;
 typedef unsigned short MSG_ID;
+typedef ::google::protobuf::Message FVU_MSG;
 class MessagePacket
 {
 	GET_SET_POINTER(google::protobuf::Message, Message);
