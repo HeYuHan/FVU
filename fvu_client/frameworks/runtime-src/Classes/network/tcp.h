@@ -5,13 +5,19 @@
 #include <WinSock.h>
 #pragma comment(lib,"wsock32")
 #else
+#include <unistd.h>
+#include <stdio.h>
 #include <sys/socket.h>
 #include <fcntl.h>
 #include <errno.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
+#include <sys/types.h>
+
+#include <string.h>
 #endif
-#include "Common/Define.h"
+#include "Common/tool.h"
+
 #ifndef SOCKET
 #define SOCKET int
 #endif // !SOCKET

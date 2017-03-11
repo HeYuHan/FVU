@@ -95,7 +95,7 @@ bool GameApp::startGame()
 	//c->getAnimationPlayer()->setDebugBonesEnabled(true);
 	c->setPosition(m_GlobalLevel->getFightAreaOrigin());
 	m_GlobalLevel->addCharacter(c);
-#if 0
+#if 1
 	if (!createNetwork())return false;
 	TestMessage* tm = new TestMessage();
 	tm->set_boolvalue(true);
@@ -103,7 +103,7 @@ bool GameApp::startGame()
 	tm->set_floatvalue(2.0f);
 	tm->set_int64value(5);
 	tm->set_stringvalue("124asdfasf");
-	tm->set_bytesvalue("ÄãºÃ£¬123asfaf");
+	tm->set_bytesvalue("ä½ å¥½123asfaf");
 	tm->set_uintvalue(12);
 	ChildMessage* child = tm->add_childmessage();
 	child->set_fixedvalue(2);

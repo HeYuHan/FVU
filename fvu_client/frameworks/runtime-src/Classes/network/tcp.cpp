@@ -137,7 +137,7 @@ bool TcpConnection::getError()
 	if (err != WSAEWOULDBLOCK)
 	{
 #else
-	int err = eerrno;
+	int err = errno;
 	if (err != EINPROGRESS && err != EAGAIN)
 	{
 #endif

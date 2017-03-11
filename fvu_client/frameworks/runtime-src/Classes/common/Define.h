@@ -36,6 +36,7 @@ enum ResourceType
 {
 	ATLAS,TEXTURE
 };
+//include
 
 
 

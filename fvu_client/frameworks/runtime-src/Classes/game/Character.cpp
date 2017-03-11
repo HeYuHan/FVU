@@ -50,7 +50,7 @@ void Character::drawWantMovePoistion(cocos2d::DrawNode* drawNode)
 {
 	
 	drawNode->drawLine(getPosition(), m_WantMovePosition, Color4F::GREEN);
-	drawNode->drawCircle(m_WantMovePosition, m_BodyBox.width, 0, 20, true, 1, tan(CC_DEGREES_TO_RADIANS(Level::getInstance()->getFightAreaAngle())), Color4F::RED);
+	drawNode->drawCircle(m_WantMovePosition, m_BodyBox.width/2, 0, 20, true, 1, tan(CC_DEGREES_TO_RADIANS(Level::getInstance()->getFightAreaAngle())), Color4F::RED);
 	Vec2 arrow = m_WantMovePosition + Vec2(0, cos(getCurrentTime()*6.28*3) * 10 + 10);
 	drawNode->drawTriangle(arrow, arrow + Vec2(-10, 10), arrow + Vec2(10, 10), Color4F::RED);
 }

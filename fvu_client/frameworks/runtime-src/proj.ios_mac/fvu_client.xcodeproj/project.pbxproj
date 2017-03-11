@@ -72,12 +72,32 @@
 		D454520C156E22BD00887EB5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D454520B156E22BD00887EB5 /* libz.dylib */; };
 		D4545227156E28EF00887EB5 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4545215156E28EF00887EB5 /* AppDelegate.cpp */; };
 		D6B061241803AB9F0077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B061231803AB9F0077942B /* CoreMotion.framework */; };
-		DEFF87CD1E643FC100ECC520 /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFF87C81E643FC100ECC520 /* Character.cpp */; };
-		DEFF87CE1E643FC100ECC520 /* GameApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFF87CB1E643FC100ECC520 /* GameApp.cpp */; };
-		DEFF87D51E6440BF00ECC520 /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFF87C81E643FC100ECC520 /* Character.cpp */; };
-		DEFF87D61E6440CE00ECC520 /* GameApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFF87CB1E643FC100ECC520 /* GameApp.cpp */; };
-		DEFF87D91E6445F600ECC520 /* CharacterControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFF87D71E6445F600ECC520 /* CharacterControl.cpp */; };
-		DEFF87DA1E6445F600ECC520 /* CharacterControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFF87D71E6445F600ECC520 /* CharacterControl.cpp */; };
+		DEDEF5291E73BF9800646C5F /* tool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDEF50D1E73BF9800646C5F /* tool.cpp */; };
+		DEDEF52A1E73BF9800646C5F /* tool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDEF50D1E73BF9800646C5F /* tool.cpp */; };
+		DEDEF52B1E73BF9800646C5F /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDEF5101E73BF9800646C5F /* Character.cpp */; };
+		DEDEF52C1E73BF9800646C5F /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDEF5101E73BF9800646C5F /* Character.cpp */; };
+		DEDEF52D1E73BF9800646C5F /* CharacterControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDEF5121E73BF9800646C5F /* CharacterControl.cpp */; };
+		DEDEF52E1E73BF9800646C5F /* CharacterControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDEF5121E73BF9800646C5F /* CharacterControl.cpp */; };
+		DEDEF52F1E73BF9800646C5F /* GameApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDEF5141E73BF9800646C5F /* GameApp.cpp */; };
+		DEDEF5301E73BF9800646C5F /* GameApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDEF5141E73BF9800646C5F /* GameApp.cpp */; };
+		DEDEF5311E73BF9800646C5F /* Level.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDEF5161E73BF9800646C5F /* Level.cpp */; };
+		DEDEF5321E73BF9800646C5F /* Level.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDEF5161E73BF9800646C5F /* Level.cpp */; };
+		DEDEF5331E73BF9800646C5F /* CharacterJSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDEF5191E73BF9800646C5F /* CharacterJSB.cpp */; };
+		DEDEF5341E73BF9800646C5F /* CharacterJSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDEF5191E73BF9800646C5F /* CharacterJSB.cpp */; };
+		DEDEF5351E73BF9800646C5F /* addressbook.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = DEDEF51C1E73BF9800646C5F /* addressbook.pb.cc */; };
+		DEDEF5361E73BF9800646C5F /* addressbook.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = DEDEF51C1E73BF9800646C5F /* addressbook.pb.cc */; };
+		DEDEF5371E73BF9800646C5F /* protobuf.exe in Resources */ = {isa = PBXBuildFile; fileRef = DEDEF5201E73BF9800646C5F /* protobuf.exe */; };
+		DEDEF5381E73BF9800646C5F /* protobuf.exe in Resources */ = {isa = PBXBuildFile; fileRef = DEDEF5201E73BF9800646C5F /* protobuf.exe */; };
+		DEDEF5391E73BF9800646C5F /* testmsg.proto in Resources */ = {isa = PBXBuildFile; fileRef = DEDEF5211E73BF9800646C5F /* testmsg.proto */; };
+		DEDEF53A1E73BF9800646C5F /* testmsg.proto in Resources */ = {isa = PBXBuildFile; fileRef = DEDEF5211E73BF9800646C5F /* testmsg.proto */; };
+		DEDEF53B1E73BF9800646C5F /* testmsg.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = DEDEF5221E73BF9800646C5F /* testmsg.pb.cc */; };
+		DEDEF53C1E73BF9800646C5F /* testmsg.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = DEDEF5221E73BF9800646C5F /* testmsg.pb.cc */; };
+		DEDEF53D1E73BF9800646C5F /* networkstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDEF5251E73BF9800646C5F /* networkstream.cpp */; };
+		DEDEF53E1E73BF9800646C5F /* networkstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDEF5251E73BF9800646C5F /* networkstream.cpp */; };
+		DEDEF53F1E73BF9800646C5F /* tcp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDEF5271E73BF9800646C5F /* tcp.cpp */; };
+		DEDEF5401E73BF9800646C5F /* tcp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDEF5271E73BF9800646C5F /* tcp.cpp */; };
+		DEDEF5581E73C72400646C5F /* libprotobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDEF50A1E73BECB00646C5F /* libprotobuf.a */; };
+		DEDEF5A41E73C94300646C5F /* libprobotbufmacOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDEF5541E73C5A500646C5F /* libprobotbufmacOS.a */; };
 		ED545A821B68A21500C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A811B68A21500C3958E /* libiconv.dylib */; };
 		ED545A841B68A21C00C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A831B68A21C00C3958E /* libiconv.dylib */; };
 /* End PBXBuildFile section */
@@ -138,6 +158,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = A03F31E81781479B006731B9;
 			remoteInfo = "jsbindings Mac";
+		};
+		DEDEF5091E73BECB00646C5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEDEF5051E73BECA00646C5F /* protobuf.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DEDEF1AF1E73BC0800646C5F;
+			remoteInfo = protobuf;
+		};
+		DEDEF5531E73C5A500646C5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEDEF5051E73BECA00646C5F /* protobuf.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DEDEF5471E73C31A00646C5F;
+			remoteInfo = probotbufmacOS;
+		};
+		DEDEF5561E73C71600646C5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEDEF5051E73BECA00646C5F /* protobuf.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DEDEF1AE1E73BC0800646C5F;
+			remoteInfo = protobufIOS;
+		};
+		DEDEF5A21E73C93100646C5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEDEF5051E73BECA00646C5F /* protobuf.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DEDEF5461E73C31A00646C5F;
+			remoteInfo = probotbufmacOS;
 		};
 		DEFF87D01E643FC100ECC520 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -215,13 +263,32 @@
 		D4545215156E28EF00887EB5 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		D4545216156E28EF00887EB5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6B061231803AB9F0077942B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
-		DEFF87C81E643FC100ECC520 /* Character.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Character.cpp; sourceTree = "<group>"; };
-		DEFF87C91E643FC100ECC520 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
-		DEFF87CA1E643FC100ECC520 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
-		DEFF87CB1E643FC100ECC520 /* GameApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameApp.cpp; sourceTree = "<group>"; };
-		DEFF87CC1E643FC100ECC520 /* GameApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameApp.h; sourceTree = "<group>"; };
-		DEFF87D71E6445F600ECC520 /* CharacterControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CharacterControl.cpp; sourceTree = "<group>"; };
-		DEFF87D81E6445F600ECC520 /* CharacterControl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CharacterControl.hpp; sourceTree = "<group>"; };
+		DEDEF5051E73BECA00646C5F /* protobuf.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = protobuf.xcodeproj; path = "../../protobuf-3.2.0/xcode/protobuf.xcodeproj"; sourceTree = "<group>"; };
+		DEDEF50C1E73BF9800646C5F /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		DEDEF50D1E73BF9800646C5F /* tool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tool.cpp; sourceTree = "<group>"; };
+		DEDEF50E1E73BF9800646C5F /* tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tool.h; sourceTree = "<group>"; };
+		DEDEF5101E73BF9800646C5F /* Character.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Character.cpp; sourceTree = "<group>"; };
+		DEDEF5111E73BF9800646C5F /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		DEDEF5121E73BF9800646C5F /* CharacterControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CharacterControl.cpp; sourceTree = "<group>"; };
+		DEDEF5131E73BF9800646C5F /* CharacterControl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CharacterControl.hpp; sourceTree = "<group>"; };
+		DEDEF5141E73BF9800646C5F /* GameApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameApp.cpp; sourceTree = "<group>"; };
+		DEDEF5151E73BF9800646C5F /* GameApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameApp.h; sourceTree = "<group>"; };
+		DEDEF5161E73BF9800646C5F /* Level.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Level.cpp; sourceTree = "<group>"; };
+		DEDEF5171E73BF9800646C5F /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		DEDEF5191E73BF9800646C5F /* CharacterJSB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CharacterJSB.cpp; sourceTree = "<group>"; };
+		DEDEF51A1E73BF9800646C5F /* CharacterJSB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterJSB.h; sourceTree = "<group>"; };
+		DEDEF51C1E73BF9800646C5F /* addressbook.pb.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = addressbook.pb.cc; sourceTree = "<group>"; };
+		DEDEF51D1E73BF9800646C5F /* addressbook.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addressbook.pb.h; sourceTree = "<group>"; };
+		DEDEF51E1E73BF9800646C5F /* allmsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allmsg.h; sourceTree = "<group>"; };
+		DEDEF5201E73BF9800646C5F /* protobuf.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = protobuf.exe; sourceTree = "<group>"; };
+		DEDEF5211E73BF9800646C5F /* testmsg.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testmsg.proto; sourceTree = "<group>"; };
+		DEDEF5221E73BF9800646C5F /* testmsg.pb.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testmsg.pb.cc; sourceTree = "<group>"; };
+		DEDEF5231E73BF9800646C5F /* testmsg.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testmsg.pb.h; sourceTree = "<group>"; };
+		DEDEF5251E73BF9800646C5F /* networkstream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = networkstream.cpp; sourceTree = "<group>"; };
+		DEDEF5261E73BF9800646C5F /* networkstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = networkstream.h; sourceTree = "<group>"; };
+		DEDEF5271E73BF9800646C5F /* tcp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tcp.cpp; sourceTree = "<group>"; };
+		DEDEF5281E73BF9800646C5F /* tcp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tcp.h; sourceTree = "<group>"; };
+		DEDEF5421E73C21C00646C5F /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		ED545A811B68A21500C3958E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libiconv.dylib; sourceTree = DEVELOPER_DIR; };
 		ED545A831B68A21C00C3958E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -231,6 +298,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEDEF5A41E73C94300646C5F /* libprobotbufmacOS.a in Frameworks */,
 				ED545A841B68A21C00C3958E /* libiconv.dylib in Frameworks */,
 				BAEE4D841AC40C11003BEB0F /* Security.framework in Frameworks */,
 				C037820F18BF77DE00FE4F13 /* libjscocos2d Mac.a in Frameworks */,
@@ -254,6 +322,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEDEF5581E73C72400646C5F /* libprotobuf.a in Frameworks */,
 				294D0D681D0D56F400F7F5D4 /* CoreText.framework in Frameworks */,
 				9FA3AE461BE9BBCA00FC9645 /* GameController.framework in Frameworks */,
 				ED545A821B68A21500C3958E /* libiconv.dylib in Frameworks */,
@@ -333,6 +402,8 @@
 		A92275321517C094001B78AA = {
 			isa = PBXGroup;
 			children = (
+				DEDEF5411E73C20500646C5F /* protobuf */,
+				DEDEF5051E73BECA00646C5F /* protobuf.xcodeproj */,
 				C037820118BF76AF00FE4F13 /* cocos2d_js_bindings.xcodeproj */,
 				1AC6FB34180E9ACB004C840B /* cocos2d_libs.xcodeproj */,
 				BAF426FA19484B3E002B22EF /* script */,
@@ -415,18 +486,100 @@
 		D4545214156E28EF00887EB5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DEFF87C81E643FC100ECC520 /* Character.cpp */,
-				DEFF87C91E643FC100ECC520 /* Character.h */,
-				DEFF87CA1E643FC100ECC520 /* Define.h */,
-				DEFF87CB1E643FC100ECC520 /* GameApp.cpp */,
-				DEFF87CC1E643FC100ECC520 /* GameApp.h */,
+				DEDEF50B1E73BF9800646C5F /* common */,
+				DEDEF50F1E73BF9800646C5F /* game */,
+				DEDEF5181E73BF9800646C5F /* jsb */,
+				DEDEF51B1E73BF9800646C5F /* msg */,
+				DEDEF5241E73BF9800646C5F /* network */,
 				D4545215156E28EF00887EB5 /* AppDelegate.cpp */,
 				D4545216156E28EF00887EB5 /* AppDelegate.h */,
-				DEFF87D71E6445F600ECC520 /* CharacterControl.cpp */,
-				DEFF87D81E6445F600ECC520 /* CharacterControl.hpp */,
 			);
 			name = Classes;
 			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		DEDEF5061E73BECA00646C5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEDEF50A1E73BECB00646C5F /* libprotobuf.a */,
+				DEDEF5541E73C5A500646C5F /* libprobotbufmacOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEDEF50B1E73BF9800646C5F /* common */ = {
+			isa = PBXGroup;
+			children = (
+				DEDEF50C1E73BF9800646C5F /* Define.h */,
+				DEDEF50D1E73BF9800646C5F /* tool.cpp */,
+				DEDEF50E1E73BF9800646C5F /* tool.h */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		DEDEF50F1E73BF9800646C5F /* game */ = {
+			isa = PBXGroup;
+			children = (
+				DEDEF5101E73BF9800646C5F /* Character.cpp */,
+				DEDEF5111E73BF9800646C5F /* Character.h */,
+				DEDEF5121E73BF9800646C5F /* CharacterControl.cpp */,
+				DEDEF5131E73BF9800646C5F /* CharacterControl.hpp */,
+				DEDEF5141E73BF9800646C5F /* GameApp.cpp */,
+				DEDEF5151E73BF9800646C5F /* GameApp.h */,
+				DEDEF5161E73BF9800646C5F /* Level.cpp */,
+				DEDEF5171E73BF9800646C5F /* Level.h */,
+			);
+			path = game;
+			sourceTree = "<group>";
+		};
+		DEDEF5181E73BF9800646C5F /* jsb */ = {
+			isa = PBXGroup;
+			children = (
+				DEDEF5191E73BF9800646C5F /* CharacterJSB.cpp */,
+				DEDEF51A1E73BF9800646C5F /* CharacterJSB.h */,
+			);
+			path = jsb;
+			sourceTree = "<group>";
+		};
+		DEDEF51B1E73BF9800646C5F /* msg */ = {
+			isa = PBXGroup;
+			children = (
+				DEDEF51C1E73BF9800646C5F /* addressbook.pb.cc */,
+				DEDEF51D1E73BF9800646C5F /* addressbook.pb.h */,
+				DEDEF51E1E73BF9800646C5F /* allmsg.h */,
+				DEDEF51F1E73BF9800646C5F /* proto */,
+				DEDEF5221E73BF9800646C5F /* testmsg.pb.cc */,
+				DEDEF5231E73BF9800646C5F /* testmsg.pb.h */,
+			);
+			path = msg;
+			sourceTree = "<group>";
+		};
+		DEDEF51F1E73BF9800646C5F /* proto */ = {
+			isa = PBXGroup;
+			children = (
+				DEDEF5201E73BF9800646C5F /* protobuf.exe */,
+				DEDEF5211E73BF9800646C5F /* testmsg.proto */,
+			);
+			path = proto;
+			sourceTree = "<group>";
+		};
+		DEDEF5241E73BF9800646C5F /* network */ = {
+			isa = PBXGroup;
+			children = (
+				DEDEF5251E73BF9800646C5F /* networkstream.cpp */,
+				DEDEF5261E73BF9800646C5F /* networkstream.h */,
+				DEDEF5271E73BF9800646C5F /* tcp.cpp */,
+				DEDEF5281E73BF9800646C5F /* tcp.h */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		DEDEF5411E73C20500646C5F /* protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				DEDEF5421E73C21C00646C5F /* config.h */,
+			);
+			name = protobuf;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -443,6 +596,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				DEDEF5A31E73C93100646C5F /* PBXTargetDependency */,
 				C037820E18BF77D100FE4F13 /* PBXTargetDependency */,
 				1A676820180E9BF70076BC67 /* PBXTargetDependency */,
 			);
@@ -462,6 +616,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				DEDEF5571E73C71600646C5F /* PBXTargetDependency */,
 				C037820B18BF77BC00FE4F13 /* PBXTargetDependency */,
 				1A67682F180E9C110076BC67 /* PBXTargetDependency */,
 			);
@@ -496,6 +651,10 @@
 				{
 					ProductGroup = 1AC6FB35180E9ACB004C840B /* Products */;
 					ProjectRef = 1AC6FB34180E9ACB004C840B /* cocos2d_libs.xcodeproj */;
+				},
+				{
+					ProductGroup = DEDEF5061E73BECA00646C5F /* Products */;
+					ProjectRef = DEDEF5051E73BECA00646C5F /* protobuf.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -535,6 +694,20 @@
 			remoteRef = C037820818BF76AF00FE4F13 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		DEDEF50A1E73BECB00646C5F /* libprotobuf.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libprotobuf.a;
+			remoteRef = DEDEF5091E73BECB00646C5F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DEDEF5541E73C5A500646C5F /* libprobotbufmacOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libprobotbufmacOS.a;
+			remoteRef = DEDEF5531E73C5A500646C5F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		DEFF87D11E643FC100ECC520 /* libjscocos2d tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -557,10 +730,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AC22EDE18CA0E11007112B9 /* project.json in Resources */,
+				DEDEF5381E73BF9800646C5F /* protobuf.exe in Resources */,
 				1AD7E0A918C9DBE3004817A6 /* main.js in Resources */,
 				C0799CBA18BAE62000E9C828 /* res in Resources */,
 				BAF426FC19484B3E002B22EF /* script in Resources */,
 				509D4ACF17EBB2BE00697056 /* Icon.icns in Resources */,
+				DEDEF53A1E73BF9800646C5F /* testmsg.proto in Resources */,
 				C03780EC18BEE0E400FE4F13 /* src in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -576,12 +751,14 @@
 				5091731E17ECDF7A00D62437 /* Icon-80.png in Resources */,
 				5091731F17ECDF7A00D62437 /* Icon-100.png in Resources */,
 				509D4AC117EBB2AB00697056 /* Icon-72.png in Resources */,
+				DEDEF5391E73BF9800646C5F /* testmsg.proto in Resources */,
 				509D4AC017EBB2AB00697056 /* Icon-57.png in Resources */,
 				5091731A17ECDF7A00D62437 /* Icon-29.png in Resources */,
 				C03780EB18BEE0E400FE4F13 /* src in Resources */,
 				509D4AC617EBB2AB00697056 /* Icon-152.png in Resources */,
 				C0799CB918BAE62000E9C828 /* res in Resources */,
 				509D4AC517EBB2AB00697056 /* Icon-144.png in Resources */,
+				DEDEF5371E73BF9800646C5F /* protobuf.exe in Resources */,
 				509D4AC317EBB2AB00697056 /* Icon-114.png in Resources */,
 				509D4ABD17EBB2AB00697056 /* Default-568h@2x.png in Resources */,
 				509D4ABF17EBB2AB00697056 /* Default@2x.png in Resources */,
@@ -600,11 +777,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEFF87D51E6440BF00ECC520 /* Character.cpp in Sources */,
 				509D4A8117EBB24E00697056 /* AppDelegate.cpp in Sources */,
-				DEFF87DA1E6445F600ECC520 /* CharacterControl.cpp in Sources */,
 				C06E23CC18CEFE680093C81A /* main.cpp in Sources */,
-				DEFF87D61E6440CE00ECC520 /* GameApp.cpp in Sources */,
+				DEDEF52E1E73BF9800646C5F /* CharacterControl.cpp in Sources */,
+				DEDEF5401E73BF9800646C5F /* tcp.cpp in Sources */,
+				DEDEF5321E73BF9800646C5F /* Level.cpp in Sources */,
+				DEDEF52A1E73BF9800646C5F /* tool.cpp in Sources */,
+				DEDEF5341E73BF9800646C5F /* CharacterJSB.cpp in Sources */,
+				DEDEF52C1E73BF9800646C5F /* Character.cpp in Sources */,
+				DEDEF5361E73BF9800646C5F /* addressbook.pb.cc in Sources */,
+				DEDEF53E1E73BF9800646C5F /* networkstream.cpp in Sources */,
+				DEDEF53C1E73BF9800646C5F /* testmsg.pb.cc in Sources */,
+				DEDEF5301E73BF9800646C5F /* GameApp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,13 +796,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEDEF5311E73BF9800646C5F /* Level.cpp in Sources */,
+				DEDEF5331E73BF9800646C5F /* CharacterJSB.cpp in Sources */,
 				509D4AC917EBB2AB00697056 /* RootViewController.mm in Sources */,
 				D4545227156E28EF00887EB5 /* AppDelegate.cpp in Sources */,
+				DEDEF53B1E73BF9800646C5F /* testmsg.pb.cc in Sources */,
+				DEDEF5351E73BF9800646C5F /* addressbook.pb.cc in Sources */,
 				509D4AC817EBB2AB00697056 /* main.m in Sources */,
-				DEFF87CD1E643FC100ECC520 /* Character.cpp in Sources */,
+				DEDEF53F1E73BF9800646C5F /* tcp.cpp in Sources */,
+				DEDEF53D1E73BF9800646C5F /* networkstream.cpp in Sources */,
+				DEDEF52B1E73BF9800646C5F /* Character.cpp in Sources */,
+				DEDEF5291E73BF9800646C5F /* tool.cpp in Sources */,
+				DEDEF52D1E73BF9800646C5F /* CharacterControl.cpp in Sources */,
 				509D4ABC17EBB2AB00697056 /* AppController.mm in Sources */,
-				DEFF87D91E6445F600ECC520 /* CharacterControl.cpp in Sources */,
-				DEFF87CE1E643FC100ECC520 /* GameApp.cpp in Sources */,
+				DEDEF52F1E73BF9800646C5F /* GameApp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,6 +836,16 @@
 			name = "jsbindings Mac";
 			targetProxy = C037820D18BF77D100FE4F13 /* PBXContainerItemProxy */;
 		};
+		DEDEF5571E73C71600646C5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = protobufIOS;
+			targetProxy = DEDEF5561E73C71600646C5F /* PBXContainerItemProxy */;
+		};
+		DEDEF5A31E73C93100646C5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = probotbufmacOS;
+			targetProxy = DEDEF5A21E73C93100646C5F /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -665,7 +866,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "";
 				SDKROOT = macosx;
-				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../cocos2d-x/external/glfw3/include/mac $(SRCROOT)/../../cocos2d-x/external/spidermonkey/include/mac";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../cocos2d-x/external/glfw3/include/mac $(SRCROOT)/../../cocos2d-x/external/spidermonkey/include/mac $(SRCROOT)/../Classes $(SRCROOT)/../../protobuf-3.2.0/src";
 			};
 			name = Debug;
 		};
@@ -686,7 +887,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "";
 				SDKROOT = macosx;
-				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../cocos2d-x/external/glfw3/include/mac $(SRCROOT)/../../cocos2d-x/external/spidermonkey/include/mac";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../cocos2d-x/external/glfw3/include/mac $(SRCROOT)/../../cocos2d-x/external/spidermonkey/include/mac $(SRCROOT)/../Classes $(SRCROOT)/../../protobuf-3.2.0/src";
 			};
 			name = Release;
 		};
@@ -761,7 +962,7 @@
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../cocos2d-x/external/spidermonkey/include/ios $(SRCROOT)/../../cocos2d-x/plugin/jsbindings/auto $(SRCROOT)/../../cocos2d-x/plugin/jsbindings/manual $(SRCROOT)/../../cocos2d-x/cocos";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../cocos2d-x/external/spidermonkey/include/ios $(SRCROOT)/../../cocos2d-x/plugin/jsbindings/auto $(SRCROOT)/../../cocos2d-x/plugin/jsbindings/manual $(SRCROOT)/../../cocos2d-x/cocos $(SRCROOT)/../Classes $(SRCROOT)/../../protobuf-3.2.0/src";
 				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Debug;
@@ -786,7 +987,7 @@
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../cocos2d-x/external/spidermonkey/include/ios $(SRCROOT)/../../cocos2d-x/plugin/jsbindings/auto $(SRCROOT)/../../cocos2d-x/plugin/jsbindings/manual $(SRCROOT)/../../cocos2d-x/cocos";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../cocos2d-x/external/spidermonkey/include/ios $(SRCROOT)/../../cocos2d-x/plugin/jsbindings/auto $(SRCROOT)/../../cocos2d-x/plugin/jsbindings/manual $(SRCROOT)/../../cocos2d-x/cocos $(SRCROOT)/../Classes $(SRCROOT)/../../protobuf-3.2.0/src";
 				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Release;
