@@ -32,6 +32,10 @@
 #define GOOGLE_PROTOBUF_STUBS_PORT_H_
 #if !defined(_MSC_VER)
 #include "config.h"
+#else
+#define PROTOBUF_USE_DLLS
+#define LIBPROTOBUF_EXPORTS
+#define LIBPROTOC_EXPORTS
 #endif
 
 #include <assert.h>
